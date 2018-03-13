@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US"><!-- ?? tr-TR ?? -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date sorting</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+<p id="demo"></p>    
+</div>
+
+
+</body>
+ 
+
+<script>
+    /*
+    TODO Notes:
+    - gorev dates in a more readable form
+    - number of days on the office to the right side of the kisi
+    - kisi collapsable. (one timeline to show next to it would be blast)
+    - timeline next to gorev definition
+    - viewport sizable timeline
+    - format nicely
+    - fill out all kisiler...
+    + better calculation for timeline width 
+    - filter for different gorevs
+    - add - milletvekilleri, bakanlar,belediye başkanları
+    */
+    var kisiler = [];
+    var t = "";
+    loadDoc();
+    
+function paintTimeline(elem,bas,bit){
+    var cnv = document.createElement("canvas");
+    var ctx = cnv.getContext("2d");
+    cnv.style.width ="1200px";
+    cnv.style.height="1em";
+    
+    var beginning = new Date("1923-1-1");
+   
+    var baslangicTarihi =new Date(bas);
+    var bitisTarihi = new Date(bit);
+    ctx.fillRect(dateDiffToPx(beginning,baslangicTarihi),0,
+                 dateDiffToPx(baslangicTarihi,bitisTarihi),ctx.canvas.height);
+    elem.appendChild(cnv);
+    }
+function paintTimelineNew(elem,bas,bit){
+    var beginning = new Date("1923-01-01");
+    var baslangicTarihi =new Date(bas);
+    var bitisTarihi = new Date(bit);
+    elem.style.position="absolute";
+    elem.style.left= dateDiffToPx(beginning,baslangicTarihi).toString() + "px";
+    elem.style.width=dateDiffToPx(baslangicTarihi,bitisTarihi).toString() + "px";
+    
+    
+}
+function dateDiffToPx(bas,bit){
+    var px =(((bit.getFullYear()-bas.getFullYear()) * 12) - bas.getMonth()+ bit.getMonth()) ;
+    return px;
+}
+    
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    myFunction(this);
+    }
+  };
+  xhttp.open("GET", "/data/data.json", true);
+  xhttp.send();
+}
+
+function myFunction(xml) {
+  var i;
+  var veri =JSON.parse( xml.responseText);
+  var txt = "";
+  var kisiArticle = document.createElement("ul"); 
+   
+    //kisiArticle.style.width="100%";
+  for (i=0;i< veri.kisiler.length;i++){
+      var kisi =veri.kisiler[i];
+      //var kisiArticle = document.createElement("ul");
+      var kisiHeader = document.createElement("li");
+      kisiHeader.className="kisi";
+      var kisiGorevler = document.createElement("ul");
+      kisiGorevler.className="gorevlist";
+      kisiHeader.textContent=  kisi.Ad + "("+kisi.Dogum + "-" + kisi.Olum + ") "; 
+      for(var k = 0; k<kisi.Gorevler.length;k++){
+         var gorev = kisi.Gorevler[k];
+          var kisiGorev=document.createElement("li");
+          
+          var gorevdiv = document.createElement("span");
+          var gorevline =document.createElement("span");
+          gorevdiv.className="gorev";
+    
+          kisiGorev.textContent =  gorev.Tanimi + "(" +
+                     gorev.Baslangic + "-" + gorev.Bitis + ")";
+          gorevline.className="gorevline";
+          paintTimelineNew(gorevline,gorev.Baslangic,gorev.Bitis );
+          kisiGorev.appendChild(gorevdiv);
+          gorevdiv.appendChild(gorevline);
+          kisiGorevler.appendChild(kisiGorev);
+      }
+    kisiHeader.appendChild(kisiGorevler);
+    kisiArticle.appendChild(kisiHeader);
+    
+  }
+    document.getElementById("demo").appendChild (kisiArticle); 
+}
+    
+   
+    </script>
+</html>

@@ -1,0 +1,33 @@
+body {
+  font-family: Tahoma,Arial, Helvetica;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.container{
+    margin: 0 0 0 0; 
+   /* width:90%;*/
+}
+.kisi{
+    background-color:darkseagreen;
+    padding: 10px 0px 0px 1px;
+    list-style-position: inside;
+    border: 10;
+}
+.gorevlist{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 1em;
+}
+
+.gorev{
+    position:absolute;
+    width: 100%;
+    left:300px;
+    background-color:white;
+}
+.gorevline{
+  height: 1em; /* Line width of 3 */
+  background: #000; /* Black fill */
+ 
+}
