@@ -4,10 +4,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Date sorting</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style5.css">
 </head>
 <body>
 <div class="container">
+    <div id="header">
+        <div style="float:left">
+            <input id="c" type="checkbox" onclick="loadVeri()" checked>Cumhurbaşkanı
+            <input id="b" type="checkbox" onclick="loadVeri()" checked>Başbakan
+        </div>
+        
+        <span style="float:right">
+            <input name="detay" type="radio" onclick="loadVeri()" id="a">Sadece Başlık
+            <input name="detay" type="radio" onclick="loadVeri()" checked>Hepsini Göster
+        </span>
+        
+        <br><br>
+        <div>
+            <span>
+<!--                <span style="width: 200px;height: 1px;display: inline-block;">_</span>-->
+                <span class="gorevline hyear" style="left: 20em; width: 0.0666667em;">1920</span>
+                <span class="gorevline hyear" style="left: 28em; width: 0.0666667em;">1930</span>
+                <span class="gorevline hyear" style="left: 36em; width: 0.0666667em;">1940</span>
+                <span class="gorevline hyear" style="left: 44em; width: 0.0666667em;">1950</span>
+                <span class="gorevline hyear" style="left: 52em; width: 0.0666667em;">1960</span>
+                <span class="gorevline hyear" style="left: 60em; width: 0.0666667em;">1970</span>
+                <span class="gorevline hyear" style="left: 68em; width: 0.0666667em;">1980</span>
+                <span class="gorevline hyear" style="left: 76em; width: 0.0666667em;">1990</span>
+                <span class="gorevline hyear" style="left: 84em; width: 0.0666667em;">2000</span>
+                <span class="gorevline hyear" style="left: 92em; width: 0.0666667em;">2010</span>
+                <span class="gorevline hyear" style="left: 100em; width: 0.0666667em;">2020</span>
+            </span>
+        </div>
+    </div>
+   
+      
+    
 <p id="demo"></p>    
 </div>
 
@@ -16,58 +48,56 @@
  
 
 <script>
+    var veri ="";
     /*
     
     TODO Notes:
-    
-    - number of days on the office to the right side of the kisi. right calculation for the repeated days. !!
-    - kisi (one timeline to show next to it would be blast)
+    ----
+    - format header nicely
+    - sticky header and year guides
+    - right calculation for the repeated days. !!
     - kisi collapse triangle (+/-)  and cursor
     - viewport sizable timeline
     - format nicely
     - fill out all kisiler...
-    - filter for different gorevs
+    - year guides, timelines etc consistency. please not just put there
     - add - milletvekilleri, bakanlar,belediye başkanları
+    
+    ++++
     + gorev dates in a more readable form
     + kisi collapsable. 
+    + kisi (one timeline to show next to it would be blast)
     + timeline next to gorev definition
     + better calculation for timeline width 
+    + number of days on the office to the right side of the kisi. 
+    + filter for different gorevs
+    + collapse all
     
     */
     var kisiler = [];
     var t = "";
     loadDoc();
     
-function paintTimeline(elem,bas,bit){
-    var cnv = document.createElement("canvas");
-    var ctx = cnv.getContext("2d");
-    cnv.style.width ="1200px";
-    cnv.style.height="1em";
-    
-    var beginning = new Date("1923-1-1");
-   
-    var baslangicTarihi =new Date(bas);
-    var bitisTarihi = new Date(bit);
-    ctx.fillRect(dateDiffToPx(beginning,baslangicTarihi),0,
-                 dateDiffToPx(baslangicTarihi,bitisTarihi),ctx.canvas.height);
-    elem.appendChild(cnv);
-    }
-function paintTimelineNew(elem,bas,bit){
-    var beginning = new Date("1923-01-01");
-    var baslangicTarihi =new Date(bas);
-    var bitisTarihi = new Date(bit);
-   // elem.style.position="absolute";
-   // elem.style.height="3em";
-  
-    elem.style.left= dateDiffToPx(beginning,baslangicTarihi).toString() + "em";
-    elem.style.width=dateDiffToPx(baslangicTarihi,bitisTarihi).toString() + "em";
-    
-    
+function paintTimelineNew(elem,bas,bit,txt){
+    var beginning = new Date("1920-01-01");
+    var eGorevLine =document.createElement("span");
+    eGorevLine.className="gorevline";
+    eGorevLine.style.left=(dateDiffToWidth(beginning,bas) + 20.7).toString() + "em";
+    eGorevLine.style.width=dateDiffToWidth(bas,bit).toString() + "em";
+    eGorevLine.textContent=txt;
+    elem.appendChild(eGorevLine);
 }
-function dateDiffToPx(bas,bit){
+function dateDiffToWidth(bas,bit){
     var px =(((bit.getFullYear()-bas.getFullYear()) * 12) - bas.getMonth()+ bit.getMonth()) ;
-    return px/15;
+    return  px/15 ;
 }
+function myclick(e){
+    //TODO: more elegant way !!
+    this.children[1].hidden= !(this.children[1].hidden);
+    this.children[3].hidden= !(this.children[3].hidden);
+    //this.lastElementChild.hidden=!(this.lastElementChild.hidden);
+}
+
     
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
@@ -79,51 +109,67 @@ function loadDoc() {
   xhttp.open("GET", "data/data.json", true);
   xhttp.send();
 }
-function myclick(e){
-    this.lastChild.hidden=!(this.lastChild.hidden);
-}
 
 function myFunction(xml) {
+    veri =JSON.parse( xml.responseText);
+    loadVeri();
+}
+
+function loadVeri(){
+  if (veri=="") return;
   var i;
-  var veri =JSON.parse( xml.responseText);
   var txt = "";
   var eKisiArticle = document.createElement("ul"); 
+  var c = document.getElementById("c").checked;
+  var b = document.getElementById("b").checked;
+  var a = document.getElementById("a").checked;
+ 
    
-    //kisiArticle.style.width="100%";
   for (i=0;i< veri.kisiler.length;i++){
       var kisi =veri.kisiler[i];
       //var kisiArticle = document.createElement("ul");
       var eKisiHeader = document.createElement("li");
-      eKisiHeader.className="kisi";
+      eKisiHeader.classList.add("kisi");
+      eKisiHeader.addEventListener("click",myclick);
+      
       var eKisiAdi = document.createElement("span");
-      eKisiHeader.addEventListener("click",myclick)
-      var eKisiGorevler = document.createElement("ul");
-      eKisiGorevler.className="gorevlist";
       //"&#x25BC;"  aşağı üçgen  //&#x25B6; sağa bakan  //&#x25C0; sola bakan
       eKisiAdi.textContent=  kisi.Ad + "("+kisi.Dogum + "-" + kisi.Olum + ") "; 
+      eKisiAdi.classList.add("kisiadi");
       eKisiHeader.appendChild(eKisiAdi);
+      
+      var eKisiAdiTimeLine = document.createElement("span");
+      eKisiAdiTimeLine.hidden=true;
+      
+      var eKisiGorevler = document.createElement("ul");
+      eKisiGorevler.className="gorevlist";
+      
       var toplamGun = 0;
       for(var k = 0; k<kisi.Gorevler.length;k++){
           var gorev = kisi.Gorevler[k];
-          var eKisiGorev=document.createElement("li");
-          
-          var eGorevSpan = document.createElement("span");
-          var eGorevLine =document.createElement("span");
-          eGorevSpan.className="gorev";
-    
-          
-          var bas = new Date(gorev.Baslangic);
-          var bit = new Date(gorev.Bitis);
-          toplamGun+= Math.round((bit-bas)/86400000 );
-          eGorevSpan.textContent =  gorev.Tanimi + "(" +
-                    bas.toLocaleDateString() + "-" + bit.toLocaleDateString() + ")";
-          eGorevLine.className="gorevline";
-          paintTimelineNew(eGorevLine,gorev.Baslangic,gorev.Bitis );
-          eKisiGorev.appendChild(eGorevSpan);
-          eKisiGorev.appendChild(eGorevLine);
-          eKisiGorevler.appendChild(eKisiGorev);
+          if((gorev.Tanimi=="Cumhurbaşkanı" && c) || (gorev.Tanimi=="Başbakan" &&b)){
+              var eKisiGorev=document.createElement("li");
+              var eGorevSpan = document.createElement("span");
+              eGorevSpan.classList.add("gorev");
+
+              var bas = new Date(gorev.Baslangic);
+              var bit = new Date(gorev.Bitis);
+              toplamGun+= Math.round((bit-bas)/86400000 );
+
+
+              eGorevSpan.textContent =  gorev.Tanimi + " (" +
+                        bas.toLocaleDateString() + "-" + bit.toLocaleDateString() + ")";
+              eKisiGorev.appendChild(eGorevSpan);
+
+
+              paintTimelineNew(eKisiGorev,bas,bit );
+              paintTimelineNew(eKisiAdiTimeLine,bas,bit);
+
+              eKisiGorevler.appendChild(eKisiGorev);
+          }
       }
       
+      eKisiHeader.appendChild(eKisiAdiTimeLine);
       var eToplamGun = document.createElement("span");
       eToplamGun.textContent=toplamGun.toLocaleString();
       eToplamGun.style.float="right";
@@ -131,10 +177,16 @@ function myFunction(xml) {
     
     
     eKisiHeader.appendChild(eKisiGorevler);
-    eKisiArticle.appendChild(eKisiHeader);
-    
+      
+    if(eKisiGorevler.childElementCount>0){
+        eKisiArticle.appendChild(eKisiHeader);
+      }
+      if (a)
+        eKisiHeader.click();
   }
-    document.getElementById("demo").appendChild (eKisiArticle); 
+    if (document.getElementById("demo").childElementCount>0)
+        document.getElementById("demo").removeChild(document.getElementById("demo").children[0]);
+    document.getElementById("demo").appendChild(eKisiArticle); 
 }
     
    

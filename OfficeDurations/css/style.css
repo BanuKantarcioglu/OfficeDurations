@@ -1,23 +1,49 @@
+/*          Globals         */
 body {
   font-family: Tahoma,Arial, Helvetica;
   font-size: 12px;
   line-height: 1.5;
 }
 
+ul{
+    padding-left:5px;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+/*          specifics         */
+#header{
+    position: sticky;
+    background: blue;
+    color: white;
+    top:0;
+    height: 50px;
+}
+
+/*          Classes         */
 .container{
     margin: 0 0 0 0; 
-   /* width:90%;*/
+   }
+
+.gorev, .kisiadi{
+    width:225px;
+    display: inline-block;
+     
 }
-.kisi{
-    background-color:darkseagreen;
-    margin: 10px 0px 0px 1px;
-    list-style-position: inside;
-    border: 10;
+.gorev, {
+    color:#4c4c4c;
+}
+.gorevline{
+    height: 1em; 
+    background: #292929; /* Black fill */
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: middle;
     
-}
-.kisi:hover{
-    cursor:default;
-}
+  }
 .gorevlist{
    /* list-style-type: none;*/
     margin: 0;
@@ -25,23 +51,36 @@ body {
     background-color: white;
 }
 
-.gorev{
-    /*position:absolute;*/
-   /* width: 100%;*/
-    width:215px;
-    display: inline-block;
-    
+.kisi{
+    background-color:darkseagreen;
+    margin: 0px 0px 20px 1px;
+    list-style-position: inside;
+    border: 10;
+    overflow: hidden;
+    width: 95vw;
+   
+   /* border-style: solid;
+    border-width: 1px;*/
+    border-color: darkseagreen;
+     border-radius: 3px;
+    box-shadow: 0 1px 3px 0 hsla(0,0%,0%,0.05);
+    padding: 3px 0px 0px 1px;
+}
+.kisiadi{
+    font-weight: bold;
+}
+.kisi:hover{
+    cursor:default;
 }
 
-.gorevline{
-  height: 12px; /* Line width of 3 */
-  background: #000; /* Black fill */
-  display: inline-block;
-  position: relative;
-  }
-ul{
-    padding-left:5px;
-    list-style-type: none;
-    vertical-align: middle;
+
+
+
+
+.hyear{
+    height:500px;
+    height: calc(95vh);
+    background: red;
+    
 }
 
