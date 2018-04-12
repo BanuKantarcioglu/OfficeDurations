@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US"><!-- ?? tr-TR ?? -->
+<html lang="tr-TR"><!-- ?? tr-TR ?? -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,17 +17,22 @@
 
 <script>
     /*
+    
     TODO Notes:
-    - gorev dates in a more readable form
-    - number of days on the office to the right side of the kisi
-    - kisi collapsable. (one timeline to show next to it would be blast)
-    - timeline next to gorev definition
+    
+    - number of days on the office to the right side of the kisi. right calculation for the repeated days. !!
+    - kisi (one timeline to show next to it would be blast)
+    - kisi collapse triangle (+/-)  and cursor
     - viewport sizable timeline
     - format nicely
     - fill out all kisiler...
-    + better calculation for timeline width 
     - filter for different gorevs
     - add - milletvekilleri, bakanlar,belediye başkanları
+    + gorev dates in a more readable form
+    + kisi collapsable. 
+    + timeline next to gorev definition
+    + better calculation for timeline width 
+    
     */
     var kisiler = [];
     var t = "";
@@ -51,15 +56,17 @@ function paintTimelineNew(elem,bas,bit){
     var beginning = new Date("1923-01-01");
     var baslangicTarihi =new Date(bas);
     var bitisTarihi = new Date(bit);
-    elem.style.position="absolute";
-    elem.style.left= dateDiffToPx(beginning,baslangicTarihi).toString() + "px";
-    elem.style.width=dateDiffToPx(baslangicTarihi,bitisTarihi).toString() + "px";
+   // elem.style.position="absolute";
+   // elem.style.height="3em";
+  
+    elem.style.left= dateDiffToPx(beginning,baslangicTarihi).toString() + "em";
+    elem.style.width=dateDiffToPx(baslangicTarihi,bitisTarihi).toString() + "em";
     
     
 }
 function dateDiffToPx(bas,bit){
     var px =(((bit.getFullYear()-bas.getFullYear()) * 12) - bas.getMonth()+ bit.getMonth()) ;
-    return px;
+    return px/15;
 }
     
 function loadDoc() {
@@ -72,43 +79,62 @@ function loadDoc() {
   xhttp.open("GET", "data/data.json", true);
   xhttp.send();
 }
+function myclick(e){
+    this.lastChild.hidden=!(this.lastChild.hidden);
+}
 
 function myFunction(xml) {
   var i;
   var veri =JSON.parse( xml.responseText);
   var txt = "";
-  var kisiArticle = document.createElement("ul"); 
+  var eKisiArticle = document.createElement("ul"); 
    
     //kisiArticle.style.width="100%";
   for (i=0;i< veri.kisiler.length;i++){
       var kisi =veri.kisiler[i];
       //var kisiArticle = document.createElement("ul");
-      var kisiHeader = document.createElement("li");
-      kisiHeader.className="kisi";
-      var kisiGorevler = document.createElement("ul");
-      kisiGorevler.className="gorevlist";
-      kisiHeader.textContent=  kisi.Ad + "("+kisi.Dogum + "-" + kisi.Olum + ") "; 
+      var eKisiHeader = document.createElement("li");
+      eKisiHeader.className="kisi";
+      var eKisiAdi = document.createElement("span");
+      eKisiHeader.addEventListener("click",myclick)
+      var eKisiGorevler = document.createElement("ul");
+      eKisiGorevler.className="gorevlist";
+      //"&#x25BC;"  aşağı üçgen  //&#x25B6; sağa bakan  //&#x25C0; sola bakan
+      eKisiAdi.textContent=  kisi.Ad + "("+kisi.Dogum + "-" + kisi.Olum + ") "; 
+      eKisiHeader.appendChild(eKisiAdi);
+      var toplamGun = 0;
       for(var k = 0; k<kisi.Gorevler.length;k++){
-         var gorev = kisi.Gorevler[k];
-          var kisiGorev=document.createElement("li");
+          var gorev = kisi.Gorevler[k];
+          var eKisiGorev=document.createElement("li");
           
-          var gorevdiv = document.createElement("span");
-          var gorevline =document.createElement("span");
-          gorevdiv.className="gorev";
+          var eGorevSpan = document.createElement("span");
+          var eGorevLine =document.createElement("span");
+          eGorevSpan.className="gorev";
     
-          kisiGorev.textContent =  gorev.Tanimi + "(" +
-                     gorev.Baslangic + "-" + gorev.Bitis + ")";
-          gorevline.className="gorevline";
-          paintTimelineNew(gorevline,gorev.Baslangic,gorev.Bitis );
-          kisiGorev.appendChild(gorevdiv);
-          gorevdiv.appendChild(gorevline);
-          kisiGorevler.appendChild(kisiGorev);
+          
+          var bas = new Date(gorev.Baslangic);
+          var bit = new Date(gorev.Bitis);
+          toplamGun+= Math.round((bit-bas)/86400000 );
+          eGorevSpan.textContent =  gorev.Tanimi + "(" +
+                    bas.toLocaleDateString() + "-" + bit.toLocaleDateString() + ")";
+          eGorevLine.className="gorevline";
+          paintTimelineNew(eGorevLine,gorev.Baslangic,gorev.Bitis );
+          eKisiGorev.appendChild(eGorevSpan);
+          eKisiGorev.appendChild(eGorevLine);
+          eKisiGorevler.appendChild(eKisiGorev);
       }
-    kisiHeader.appendChild(kisiGorevler);
-    kisiArticle.appendChild(kisiHeader);
+      
+      var eToplamGun = document.createElement("span");
+      eToplamGun.textContent=toplamGun.toLocaleString();
+      eToplamGun.style.float="right";
+      eKisiHeader.appendChild(eToplamGun);
+    
+    
+    eKisiHeader.appendChild(eKisiGorevler);
+    eKisiArticle.appendChild(eKisiHeader);
     
   }
-    document.getElementById("demo").appendChild (kisiArticle); 
+    document.getElementById("demo").appendChild (eKisiArticle); 
 }
     
    

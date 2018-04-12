@@ -10,24 +10,38 @@ body {
 }
 .kisi{
     background-color:darkseagreen;
-    padding: 10px 0px 0px 1px;
+    margin: 10px 0px 0px 1px;
     list-style-position: inside;
     border: 10;
+    
+}
+.kisi:hover{
+    cursor:default;
 }
 .gorevlist{
-    list-style-type: none;
+   /* list-style-type: none;*/
     margin: 0;
     padding-left: 1em;
+    background-color: white;
 }
 
 .gorev{
-    position:absolute;
-    width: 100%;
-    left:300px;
-    background-color:white;
+    /*position:absolute;*/
+   /* width: 100%;*/
+    width:215px;
+    display: inline-block;
+    
 }
+
 .gorevline{
-  height: 1em; /* Line width of 3 */
+  height: 12px; /* Line width of 3 */
   background: #000; /* Black fill */
- 
+  display: inline-block;
+  position: relative;
+  }
+ul{
+    padding-left:5px;
+    list-style-type: none;
+    vertical-align: middle;
 }
+
