@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Date sorting</title>
     <link rel="stylesheet" href="css/style.css">
+    
+<!--
+Türkiye Cumhuriyeti kurulmasından itibaren, devlet yönetiminde olan kişilerin, görevleri ve görevde bulundukları sürelerin zamana çizelgesinde gösterilmesi. 
+    - Görev filtresi.
+    - Sıralama seçenekleri. Alfabetik, yıla göre
+    - Gösterim detay filtresi.
+    - Kişi adı arama. Yazdıkça alternatiflerin gelmesi...(opsiyonel.)
+Görsel Özellikler
+    - üst tarafta sabit menü üzerinde filtre ve sıralama seçenekleri
+    - üst tarafta sabit menünün hemen altında yine sabit olacak şekilde yıl kılavuzları. 10 yıllık aralıklar ile
+    - her bir kişinin yanında toplam görev süresini gösteren zaman çizelgesi ve toplam gün sayısı
+    - her bir kişinin altında yıllara göre görevleri ve zaman çizelgesi gösterimi
+-->
 </head>
 <body>
 <div class="container">
@@ -13,6 +26,10 @@
             <input id="c" type="checkbox" onclick="loadVeri()" checked>Cumhurbaşkanı
             <input id="b" type="checkbox" onclick="loadVeri()" checked>Başbakan
         </div>
+        <span >
+            <input name="sira" type="radio" onclick="sortToDate();loadVeri()" checked>İlk Görev Tarihine Göre
+            <input name="sira" type="radio" onclick="sortToName();loadVeri()" >Alfabetik
+        </span>
         
         <span style="float:right">
             <input name="detay" type="radio" onclick="loadVeri()" id="a">Sadece Başlık
@@ -21,7 +38,7 @@
         
         <br><br>
         <div>
-            <span>
+            <span style="width: 105em">
 <!--                <span style="width: 200px;height: 1px;display: inline-block;">_</span>-->
                 <span class="gorevline hyear" style="left: 20em; width: 0.0666667em;">1920</span>
                 <span class="gorevline hyear" style="left: 28em; width: 0.0666667em;">1930</span>
@@ -55,11 +72,9 @@
     ----
     - format header nicely
     - sticky header and year guides
-    - right calculation for the repeated days. !!
     - kisi collapse triangle (+/-)  and cursor
     - viewport sizable timeline
     - format nicely
-    - fill out all kisiler...
     - year guides, timelines etc consistency. please not just put there
     - add - milletvekilleri, bakanlar,belediye başkanları
     
@@ -72,6 +87,8 @@
     + number of days on the office to the right side of the kisi. 
     + filter for different gorevs
     + collapse all
+    + right calculation for the repeated days. !!
+    + fill out all kisiler...
     
     */
     var kisiler = [];
@@ -81,7 +98,8 @@
 function paintTimelineNew(elem,bas,bit,txt){
     var beginning = new Date("1920-01-01");
     var eGorevLine =document.createElement("span");
-    eGorevLine.className="gorevline";
+    eGorevLine.classList.add("gorevline");
+   
     eGorevLine.style.left=(dateDiffToWidth(beginning,bas) + 20.7).toString() + "em";
     eGorevLine.style.width=dateDiffToWidth(bas,bit).toString() + "em";
     eGorevLine.textContent=txt;
@@ -96,6 +114,31 @@ function myclick(e){
     this.children[1].hidden= !(this.children[1].hidden);
     this.children[3].hidden= !(this.children[3].hidden);
     //this.lastElementChild.hidden=!(this.lastElementChild.hidden);
+}
+    
+function sortToDate(){
+    if (veri=="") return;
+     for (i=0;i< veri.kisiler.length;i++){
+         var kisi =veri.kisiler[i];
+         kisi.ilktarih = new Date("2100-01-01")
+         for(var k = 0; k<kisi.Gorevler.length;k++){
+            var gorev = kisi.Gorevler[k];
+             var bas = new Date(gorev.Baslangic)
+            if (bas<kisi.ilktarih){ kisi.ilktarih=bas;}
+         }
+    }
+    veri.kisiler.sort(function(a,b){return a.ilktarih-b.ilktarih;});  
+    
+}
+function sortToName(){
+    if (veri=="") return;
+    veri.kisiler.sort(function(a,b){
+        var x = a.Ad.toLocaleLowerCase();
+        var y = b.Ad.toLocaleLowerCase();
+        if (x<y) {return -1;}
+        if (x>y){return 1;}
+        return 0;
+        }); 
 }
 
     
@@ -112,6 +155,7 @@ function loadDoc() {
 
 function myFunction(xml) {
     veri =JSON.parse( xml.responseText);
+    sortToDate();
     loadVeri();
 }
 
@@ -134,7 +178,7 @@ function loadVeri(){
       
       var eKisiAdi = document.createElement("span");
       //"&#x25BC;"  aşağı üçgen  //&#x25B6; sağa bakan  //&#x25C0; sola bakan
-      eKisiAdi.textContent=  kisi.Ad + "("+kisi.Dogum + "-" + kisi.Olum + ") "; 
+      eKisiAdi.textContent=  kisi.Ad + "("+kisi.Dogum + "-" + kisi.Olum + ") "; // For testing purposes + kisi.ilktarih.toLocaleDateString(); 
       eKisiAdi.classList.add("kisiadi");
       eKisiHeader.appendChild(eKisiAdi);
       

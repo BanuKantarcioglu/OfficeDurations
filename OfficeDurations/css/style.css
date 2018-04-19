@@ -34,6 +34,7 @@ ul{
 .gorev, {
     color:#4c4c4c;
 }
+
 .gorevline{
     height: 1em; 
     background: #292929; /* Black fill */
@@ -58,7 +59,7 @@ ul{
     list-style-position: inside;
     border: 10;
     overflow: hidden;
-    width: 105em;
+    width: 95vw;
    
    /* border-style: solid;
     border-width: 1px;*/
