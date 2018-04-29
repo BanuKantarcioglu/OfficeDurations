@@ -22,20 +22,44 @@ Görsel Özellikler
 <body>
 <div class="container">
     <div id="header">
-        <div style="float:left">
-            <input id="c" type="checkbox" onclick="loadVeri()" checked>Cumhurbaşkanı
-            <input id="b" type="checkbox" onclick="loadVeri()" checked>Başbakan
-        </div>
+        <form id="preferences" name="preferences">
+        <span>
+            <fieldset>
+                <legend>Gruplama</legend>
+                <input name="group" type="radio" onclick="reload()" value ="k" Checked> Kişi
+                <input name="group" type="radio" onclick="reload()" value ="g"> Görev
+                <input name="group" type="radio" onclick="reload()" value ="y" disabled> Yıl
+            </fieldset>
+        </span>
+        
+        <span>
+            <fieldset disabled>
+                <legend>Filtre</legend>
+                <input name="filtre" value="c" id="c" type="checkbox" onclick="loadKisiList()" checked>Cumhurbaşkanı
+                <input name="filtre" value="b" id="b" type="checkbox" onclick="loadKisiList()" checked>Başbakan
+                <input name="filtre" value="d" id="d" type="checkbox" onclick="loadKisiList()" checked>Bakanlar
+            </fieldset>
+           
+        </span>
+        
         <span >
-            <input name="sira" type="radio" onclick="sortToDate();loadVeri()" checked>İlk Görev Tarihine Göre
-            <input name="sira" type="radio" onclick="sortToName();loadVeri()" >Alfabetik
+            <fieldset>
+               <legend>Sıralama</legend>
+                <input name="sira" type="radio" onclick="reload()" value="t" checked>Tarihe Göre
+                <input name="sira" type="radio" onclick="reload()" value="a" >Alfabetik
+                <input name="sira" type="radio" onclick="reload()" value="g" disabled>Görev Süresi
+            </fieldset>
         </span>
         
-        <span style="float:right">
-            <input name="detay" type="radio" onclick="loadVeri()" id="a">Sadece Başlık
-            <input name="detay" type="radio" onclick="loadVeri()" checked>Hepsini Göster
+       
+        <span >
+            <fieldset>
+                <legend>Gösterim</legend>
+                <input name="detay" type="radio" onclick="reload()" value="a" id="a">Sadece Başlık
+                <input name="detay" type="radio" onclick="reload()" checked>Hepsini Göster
+            </fieldset>
         </span>
-        
+        </form>
         <br><br>
         <div>
             <span style="width: 105em">
@@ -65,7 +89,7 @@ Görsel Özellikler
  
 
 <script>
-    var veri ="";
+ 
     /*
     
     TODO Notes:
@@ -91,10 +115,48 @@ Görsel Özellikler
     + fill out all kisiler...
     
     */
-    var kisiler = [];
-    var t = "";
-    loadDoc();
+    var veri=[];
+    var kisi_list = [];
+    var gorev_list = [];
+    //var t = "";
+    loadData();
     
+    
+function transformToGorev(){
+     gorev_list = veri.reduce(function(groups,kisi){
+        for (var gorev of kisi.Gorevler){
+            var mygroup = groups.find(function(elm){return elm["SubHeaderText"] == gorev.Tanimi})
+            if(!mygroup){
+                groups.push({"SubHeaderText":gorev.Tanimi,"Items":[]})
+                mygroup = groups[groups.length-1];
+            }
+            mygroup["Items"].push({"Ad": kisi.Ad,"BaslangicTarihi":new Date(gorev.Baslangic),"BitisTarihi":new Date(gorev.Bitis)});
+        }
+        return groups;
+        
+    },[{"SubHeaderText":veri[0].Gorevler[0].Tanimi,"Items":[]}]);
+    
+}
+    
+function transformToKisi(){
+    if (veri=="") return;
+    kisi_list = veri.map(function(kisi){
+        var newobj = {"SubHeaderText": kisi.Ad + "("+kisi.Dogum + "-" + kisi.Olum + ") ","Items":[] };
+
+        for (var gorev of kisi.Gorevler){
+            gorev.BaslangicTarihi = new Date(gorev.Baslangic);
+            gorev.BitisTarihi = new Date(gorev.Bitis);
+            newobj.Items.push({"Ad": gorev.Tanimi,"BaslangicTarihi":gorev.BaslangicTarihi,"BitisTarihi":gorev.BitisTarihi});
+        }
+        //kisi.Gorevler.sort(sortGorevler);
+        //kisi.ilktarih=kisi.Gorevler[0].BaslangicTarihi;
+        newobj.Items.sort(function(a,b){return a.BaslangicTarihi-b.BaslangicTarihi;});
+        return newobj;
+    })
+    
+}
+
+ 
 function paintTimelineNew(elem,bas,bit,txt){
     var beginning = new Date("1920-01-01");
     var eGorevLine =document.createElement("span");
@@ -109,128 +171,170 @@ function dateDiffToWidth(bas,bit){
     var px =(((bit.getFullYear()-bas.getFullYear()) * 12) - bas.getMonth()+ bit.getMonth()) ;
     return  px/15 ;
 }
-function myclick(e){
+function myclick(e){ // kisi başlığına tıklama için
     //TODO: more elegant way !!
     this.children[1].hidden= !(this.children[1].hidden);
     this.children[3].hidden= !(this.children[3].hidden);
     //this.lastElementChild.hidden=!(this.lastElementChild.hidden);
 }
-    
-function sortToDate(){
-    if (veri=="") return;
-     for (i=0;i< veri.kisiler.length;i++){
-         var kisi =veri.kisiler[i];
-         kisi.ilktarih = new Date("2100-01-01")
-         for(var k = 0; k<kisi.Gorevler.length;k++){
-            var gorev = kisi.Gorevler[k];
-             var bas = new Date(gorev.Baslangic)
-            if (bas<kisi.ilktarih){ kisi.ilktarih=bas;}
-         }
-    }
-    veri.kisiler.sort(function(a,b){return a.ilktarih-b.ilktarih;});  
-    
+ 
+function sortGorevler(a,b){
+        return a.BaslangicTarihi - b.BaslangicTarihi;
 }
-function sortToName(){
-    if (veri=="") return;
-    veri.kisiler.sort(function(a,b){
-        var x = a.Ad.toLocaleLowerCase();
-        var y = b.Ad.toLocaleLowerCase();
-        if (x<y) {return -1;}
-        if (x>y){return 1;}
-        return 0;
-        }); 
-}
-
-    
-function loadDoc() {
+   
+function loadData() { // Verileri yüklemek için AJAX request
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-    myFunction(this);
+    initData(this);
     }
   };
   xhttp.open("GET", "data/data.json", true);
   xhttp.send();
 }
 
-function myFunction(xml) {
+function initData(xml) { // Verilerin düştüğü yer
     veri =JSON.parse( xml.responseText);
-    sortToDate();
-    loadVeri();
+    reload();
 }
 
-function loadVeri(){
-  if (veri=="") return;
-  var i;
-  var txt = "";
-  var eKisiArticle = document.createElement("ul"); 
-  var c = document.getElementById("c").checked;
-  var b = document.getElementById("b").checked;
-  var a = document.getElementById("a").checked;
+function reload(){
+    if(veri=="")return;
+    
+    var group = document.preferences.group.value;
+    var sortOrder = document.preferences.sira.value;
+    var filters = document.preferences.filtre.values;
+    var detay = document.preferences.detay.value;
+    
+    if(group == "k"){ //kişi bazlı gruplama
+        if (kisi_list=="")
+            transformToKisi(); // kişi listesini hazırla
+        switch(sortOrder){
+            case ("t"):
+                // kişi listesi ilk göreve gelme zamanına göre sıralanır
+            kisi_list.sort(function(a,b){return a.Items[0].BaslangicTarihi - b.Items[0].BaslangicTarihi;});
+                break;
+            case ("a"):
+            // kişi listesi alfabetik sıralanır
+            kisi_list.sort(function(a,b){
+                var x = a.SubHeaderText.toLocaleLowerCase();
+                var y = b.SubHeaderText.toLocaleLowerCase();
+                if (x<y){return -1;}
+                if (x>y){return 1;}
+                return 0;
+                });
+                break;
+        }
+        loadList(kisi_list,filters,detay);
+    }
+    if(group=="g"){ // gorev bazlı gruplama
+        if (gorev_list =="") 
+            transformToGorev();// görev listesini hazırla
+        switch (sortOrder){
+            case "t":
+                // gorev grubu altındaki kişilerin başlangıç tarihi
+                for(items of gorev_list)
+                    items.Items.sort(function(a,b){return a.BaslangicTarihi-b.BaslangicTarihi;});
+                gorev_list.sort(function(a,b){
+                    //TODO: aynı tarihse alfabetik ?
+                    a.Items[0].BaslangicTarihi-b.Items.BaslangicTarihi;
+                    });
+                break;
+            case "a":
+                // gorev grubu altındakilerin isimlerinin alfabetik sıralaması
+                for(items of gorev_list)
+                    items.Items.sort(function(a,b){
+                        var x = a.Ad.toLocaleLowerCase();
+                        var y = b.Ad.toLocaleLowerCase();
+                        if (x<y){return -1;}
+                        if (x>y){return 1;}
+                        return 0;
+                    });
+                
+                gorev_list.sort(function(a,b){
+                        var x = a.SubHeaderText.toLocaleLowerCase();
+                        var y = b.SubHeaderText.toLocaleLowerCase();
+                        if (x<y){return -1;}
+                        if (x>y){return 1;}
+                        return 0;
+                    });
+                break;
+        }
+        
+    loadList(gorev_list,filters,detay);
+    }
  
+} 
+
+ 
+    
+
+function loadList(list,filters,detay){
+ if (list =="") return;
+ 
+  var eSubHeaderList = document.createElement("ul"); 
    
-  for (i=0;i< veri.kisiler.length;i++){
-      var kisi =veri.kisiler[i];
+  for (i=0;i< list.length;i++){
+      var subHeader =list[i];
       //var kisiArticle = document.createElement("ul");
-      var eKisiHeader = document.createElement("li");
-      eKisiHeader.classList.add("kisi");
-      eKisiHeader.addEventListener("click",myclick);
+      var eSubHeader = document.createElement("li");
+      eSubHeader.classList.add("subHeader");
+      eSubHeader.addEventListener("click",myclick);
       
-      var eKisiAdi = document.createElement("span");
+      var eSubHeaderText = document.createElement("span");
       //"&#x25BC;"  aşağı üçgen  //&#x25B6; sağa bakan  //&#x25C0; sola bakan
-      eKisiAdi.textContent=  kisi.Ad + "("+kisi.Dogum + "-" + kisi.Olum + ") "; // For testing purposes + kisi.ilktarih.toLocaleDateString(); 
-      eKisiAdi.classList.add("kisiadi");
-      eKisiHeader.appendChild(eKisiAdi);
+      eSubHeaderText.textContent=  subHeader.SubHeaderText; // For testing purposes + kisi.ilktarih.toLocaleDateString();     //****
+      eSubHeaderText.classList.add("kisiadi");
+      eSubHeader.appendChild(eSubHeaderText);
       
-      var eKisiAdiTimeLine = document.createElement("span");
-      eKisiAdiTimeLine.hidden=true;
+      var eSubHeaderTimeLine = document.createElement("span");
+      eSubHeaderTimeLine.hidden=true;
       
-      var eKisiGorevler = document.createElement("ul");
-      eKisiGorevler.className="gorevlist";
+      var eItemList = document.createElement("ul");
+      eItemList.className="itemlist";
       
       var toplamGun = 0;
-      for(var k = 0; k<kisi.Gorevler.length;k++){
-          var gorev = kisi.Gorevler[k];
-          if((gorev.Tanimi=="Cumhurbaşkanı" && c) || (gorev.Tanimi=="Başbakan" &&b)){
-              var eKisiGorev=document.createElement("li");
-              var eGorevSpan = document.createElement("span");
-              eGorevSpan.classList.add("gorev");
 
-              var bas = new Date(gorev.Baslangic);
-              var bit = new Date(gorev.Bitis);
-              toplamGun+= Math.round((bit-bas)/86400000 );
+      for(var k = 0; k<subHeader.Items.length;k++){
+          var item = subHeader.Items[k];
+          //if((item.Kodu=="C" && c) || (item.Kodu=="BB" &&b) || (item.Kodu == "B" && d)){
+              var eItem=document.createElement("li");
+              var eItemSpan = document.createElement("span");
+              eItemSpan.classList.add("item");
 
-
-              eGorevSpan.textContent =  gorev.Tanimi + " (" +
-                        bas.toLocaleDateString() + "-" + bit.toLocaleDateString() + ")";
-              eKisiGorev.appendChild(eGorevSpan);
+              toplamGun+= Math.round((item.BitisTarihi-item.BaslangicTarihi)/86400000 );
 
 
-              paintTimelineNew(eKisiGorev,bas,bit );
-              paintTimelineNew(eKisiAdiTimeLine,bas,bit);
+              eItemSpan.textContent =  item.Ad + " (" +
+                        item.BaslangicTarihi.toLocaleDateString() + "-" + item.BitisTarihi.toLocaleDateString() + ")";
+              eItem.appendChild(eItemSpan);
 
-              eKisiGorevler.appendChild(eKisiGorev);
-          }
+
+              paintTimelineNew(eItem,item.BaslangicTarihi,item.BitisTarihi );
+              paintTimelineNew(eSubHeaderTimeLine,item.BaslangicTarihi,item.BitisTarihi);
+
+              eItemList.appendChild(eItem);
+          //}
       }
       
-      eKisiHeader.appendChild(eKisiAdiTimeLine);
+      eSubHeader.appendChild(eSubHeaderTimeLine);
       var eToplamGun = document.createElement("span");
       eToplamGun.textContent=toplamGun.toLocaleString();
       eToplamGun.style.float="right";
-      eKisiHeader.appendChild(eToplamGun);
+      eSubHeader.appendChild(eToplamGun);
     
     
-    eKisiHeader.appendChild(eKisiGorevler);
+    eSubHeader.appendChild(eItemList);
       
-    if(eKisiGorevler.childElementCount>0){
-        eKisiArticle.appendChild(eKisiHeader);
+    if(eItemList.childElementCount>0){
+        eSubHeaderList.appendChild(eSubHeader);
       }
-      if (a)
-        eKisiHeader.click();
+      if (detay == "a")
+        eSubHeader.click();
   }
     if (document.getElementById("demo").childElementCount>0)
         document.getElementById("demo").removeChild(document.getElementById("demo").children[0]);
-    document.getElementById("demo").appendChild(eKisiArticle); 
+    document.getElementById("demo").appendChild(eSubHeaderList); 
 }
     
    

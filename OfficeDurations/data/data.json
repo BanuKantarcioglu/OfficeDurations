@@ -1,556 +1,2431 @@
-{
-	"kisiler": [
-        {
-			"Ad": "Mustafa Kemal Atatürk",
-			"Dogum": 1881,
-			"Olum": 1938,
-			"Gorevler": [{
-				"Tanimi": "Cumhurbaşkanı",
-				"Baslangic": "1923-10-29",
-				"Bitis": "1938-11-10",
-				"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-			}]
-		},
-		{
-			"Ad": "İsmet İnönü",
-			"Dogum": 1884,
-			"Olum": 1973,
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1923-11-01",
-					"Bitis": "1924-03-06",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1924-03-06",
-					"Bitis": "1924-11-22",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1925-03-04",
-					"Bitis": "1927-11-01",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1927-11-01",
-					"Bitis": "1930-09-27",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1930-09-27",
-					"Bitis": "1931-05-04",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1931-05-04",
-					"Bitis": "1935-03-01",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1935-03-01",
-					"Bitis": "1937-10-25",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Cumhurbaşkanı",
-					"Baslangic": "1938-11-10",
-					"Bitis": "1950-05-22",
-					"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1961-11-20",
-					"Bitis": "1962-6-25",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1962-6-25",
-					"Bitis": "1963-12-25",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1963-12-25",
-					"Bitis": "1965-2-20",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-			]
-		},
-		{
-			"Ad": "Celal Bayar",
-			"Dogum": 1883,
-			"Olum": 1986,
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1937-10-25",
-					"Bitis": "1938-11-11",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1938-11-11",
-					"Bitis": "1939-01-25",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Cumhurbaşkanı",
-					"Baslangic": "1950-5-22",
-					"Bitis": "1960-5-27",
-					"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-				}
-			]
-		},
-        {
-			"Ad": "Cemal Gürsel",
-			"Dogum": 1895,
-			"Olum": 1966,
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1960-5-30",
-					"Bitis": "1961-1-5",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1961-1-5",
-					"Bitis": "1961-10-27",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-				"Tanimi": "Cumhurbaşkanı",
-				"Baslangic": "1960-5-27",
-				"Bitis": "1966-3-28",
-				"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-			}]
-		},
-        {
-			"Ad": "Cevdet Sunay",
-			"Dogum": 1899,
-			"Olum": 1982,
-			"Gorevler": [{
-				"Tanimi": "Cumhurbaşkanı",
-				"Baslangic": "1966-3-28",
-				"Bitis": "1973-3-28",
-				"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-			}]
-		},
-        {
-			"Ad": "Fahri Korutürk",
-			"Dogum": 1903,
-			"Olum": 1987,
-			"Gorevler": [{
-				"Tanimi": "Cumhurbaşkanı",
-				"Baslangic": "1973-4-6",
-				"Bitis": "1980-4-6",
-				"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-			}]
-		}, 
-        {
-			"Ad": "Kenan Evren",
-			"Dogum": 1917,
-			"Olum": 2015,
-			"Gorevler": [{
-				"Tanimi": "Cumhurbaşkanı",
-				"Baslangic": "1982-11-9",
-				"Bitis": "1989-11-9",
-				"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-			}]
-		}, 
-        {
-			"Ad": "Turgut Özal",
-			"Dogum": 1927,
-			"Olum": 1993,
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1983-12-13",
-					"Bitis": "1987-12-21",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1987-12-21",
-					"Bitis": "1989-11-9",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-				"Tanimi": "Cumhurbaşkanı",
-				"Baslangic": "1989-11-9",
-				"Bitis": "1993-4-17",
-				"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-			}]
-		}, 
-        {
-			"Ad": "Süleyman Demirel",
-			"Dogum": 1924,
-			"Olum": 2015,
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1965-10-27",
-					"Bitis": "1969-11-3",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1969-11-3",
-					"Bitis": "1970-3-6",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1970-3-6",
-					"Bitis": "1971-3-26",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1975-3-31",
-					"Bitis": "1977-6-21",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1977-7-21",
-					"Bitis": "1978-1-5",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1979-11-12",
-					"Bitis": "1980-9-21",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1991-11-20",
-					"Bitis": "1993-5-16",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-                        {
-				"Tanimi": "Cumhurbaşkanı",
-				"Baslangic": "1993-5-16",
-				"Bitis": "2000-5-16",
-				"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-			}]
-		},
-		{
-			"Ad": "Ahmet Necdet Sezer",
-			"Dogum": 1941,
-			"Olum": "",
-			"Gorevler": [
-
-				{
-					"Tanimi": "Cumhurbaşkanı",
-					"Baslangic": "2000-5-16",
-					"Bitis": "2007-8-28",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-
-			]
-		},
-		{
-			"Ad": "Abdullah Gül",
-			"Dogum": 1950,
-			"Olum": "",
-			"Gorevler": [
-
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "2002-11-19",
-					"Bitis": "2003-03-12",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Cumhurbaşkanı",
-					"Baslangic": "2007-08-28",
-					"Bitis": "2014-08-28",
-					"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-				}
-			]
-		},
-        {
-			"Ad": "Recep Tayyip Erdoğan",
-			"Dogum": 1954,
-			"Olum": "",
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "2003-3-14",
-					"Bitis": "2007-8-29",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "2007-8-29",
-					"Bitis": "2011-7-6",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "2011-7-6",
-					"Bitis": "2014-8-29",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-				"Tanimi": "Cumhurbaşkanı",
-				"Baslangic": "2014-8-28",
-				"Bitis": "2019-12-27",
-				"Kaynak": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/"
-			}]
-		},
-		{
-			"Ad": "Ali Fethi Okyar",
-			"Dogum": 1881,
-			"Olum": 1943,
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1923-08-14",
-					"Bitis": "1923-10-27",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1924-11-22",
-					"Bitis": "1925-03-03",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-			]
-		},
-		{
-			"Ad": "Refik Saydam",
-			"Dogum": 1881,
-			"Olum": 1942,
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1939-01-25",
-					"Bitis": "1939-04-03",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1939-04-03",
-					"Bitis": "1942-07-08",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-			]
-		},
-		{
-			"Ad": "Şükrü Saraçoğlu",
-			"Dogum": 1887,
-			"Olum": 1953,
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1942-07-09",
-					"Bitis": "1943-03-09",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1943-03-09",
-					"Bitis": "1946-08-07",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-			]
-		},
-		{
-			"Ad": "Recep Peker",
-			"Dogum": 1889,
-			"Olum": 1950,
-			"Gorevler": [{
-				"Tanimi": "Başbakan",
-				"Baslangic": "1946-08-07",
-				"Bitis": "1947-09-10",
-				"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-			}]
-		},
-		{
-			"Ad": "Hasan Saka",
-			"Dogum": 1886,
-			"Olum": 1960,
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1947-09-10",
-					"Bitis": "1948-06-10",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1948-06-10",
-					"Bitis": "1949-01-16",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-			]
-		},
-		{
-			"Ad": "Şemsettin Günaltay",
-			"Dogum": 1883,
-			"Olum": 1961,
-			"Gorevler": [{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1949-1-16",
-					"Bitis": "1950-5-22",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-			]
-		},
-		{
-			"Ad": "Adnan Menderes",
-			"Dogum": 1899,
-			"Olum": 1961,
-			"Gorevler": [
-
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1950-5-22",
-					"Bitis": "1951-3-9",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1951-3-9",
-					"Bitis": "1954-5-17",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1954-5-17",
-					"Bitis": "1955-12-9",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1955-12-9",
-					"Bitis": "1957-11-25",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1957-11-25",
-					"Bitis": "1960-5-27",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-
-			]
-		},
-		{
-			"Ad": "Suad Hayri Ürgüplü",
-			"Dogum": 1903,
-			"Olum": 1981,
-			"Gorevler": [
-
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1965-2-20",
-					"Bitis": "1965-10-27",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-
-			]
-		},
-		{
-			"Ad": "Nihat Erim",
-			"Dogum": 1912,
-			"Olum": 1980,
-			"Gorevler": [
-
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1971-3-26",
-					"Bitis": "1971-12-11",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-                {
-					"Tanimi": "Başbakan",
-					"Baslangic": "1971-12-11",
-					"Bitis": "1972-5-22",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-
-			]
-		},
-		{
-			"Ad": "Ferit Melen",
-			"Dogum": 1906,
-			"Olum": 1988,
-			"Gorevler": [
-
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1972-5-22",
-					"Bitis": "1973-4-15",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-
-			]
-		},
-		{
-			"Ad": "Mehmet Naim Talu",
-			"Dogum": 1919,
-			"Olum": 1988,
-			"Gorevler": [
-
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1973-4-15",
-					"Bitis": "1974-1-26",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-
-			]
-		},
-		{
-			"Ad": "Bülent Ecevit",
-			"Dogum": 1925,
-			"Olum": 2006,
-			"Gorevler": [
-
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1974-1-26",
-					"Bitis": "1974-11-17",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1977-6-21",
-					"Bitis": "1977-7-21",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1978-1-5",
-					"Bitis": "1979-11-12",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1999-1-11",
-					"Bitis": "1999-5-28",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},{
-					"Tanimi": "Başbakan",
-					"Baslangic": "1999-5-28",
-					"Bitis": "2002-11-19",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-
-			]
-		},
-		{
-			"Ad": "Ahmet Davutoğlu",
-			"Dogum": 1884,
-			"Olum": 1973,
-			"Gorevler": [
-
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "2014-8-29",
-					"Bitis": "2015-8-28",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "2015-8-25",
-					"Bitis": "2015-11-24",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				},
-				{
-					"Tanimi": "Başbakan",
-					"Baslangic": "2015-11-25",
-					"Bitis": "2016-5-24",
-					"Kaynak": "https://www.basbakanlik.gov.tr/Forms/_Global/_Government/pg_CabinetHistory.aspx"
-				}
-
-			]
-		}
-	]
-}
+[
+  {
+    "Ad": "Abdullah Gül",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "2007-08-28",
+        "Bitis": "2014-08-28"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      },
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Dışişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Abdülkadir Aksu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "İçişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "İçişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Abdüllatif Şener",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Adnan Menderes",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1950-05-22",
+        "Bitis": "1951-03-09"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1951-03-09",
+        "Bitis": "1954-05-17"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1954-05-17",
+        "Bitis": "1955-12-09"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1955-12-09",
+        "Bitis": "1957-11-25"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1957-11-25",
+        "Bitis": "1960-05-27"
+      }
+    ]
+  },
+  {
+    "Ad": "Ahmet Davutoğlu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Dışişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Dışişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Ahmet Erdem",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Çalışma ve Sosyal Güvenlik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Ahmet Kahraman",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Adalet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Ahmet Necdet Sezer",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "2000-05-16",
+        "Bitis": "2007-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Akif Çağatay Kılıç",
+    "Dogum": "1976-06-15",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Gençlik ve Spor Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Gençlik ve Spor Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Gençlik ve Spor Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Ali Babacan",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Ali Coşkun",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Sanayi ve Ticaret Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Sanayi ve Ticaret Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Ali Fethi Okyar",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1923-08-14",
+        "Bitis": "1923-10-27"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1924-11-22",
+        "Bitis": "1925-03-03"
+      }
+    ]
+  },
+  {
+    "Ad": "Ali Haydar Konca",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Avrupa Birliği Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Ali Rıza Alaboyun",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Enerji ve Tabii Kaynaklar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Atilla Koç",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Kültür ve Turizm Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Ayşen Gürcan",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Aile ve Sosyal Politikalar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Ayşenur İslam",
+    "Dogum": "1958-01-16",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Aile ve Sosyal Politikalar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Bekir Bozdağ",
+    "Dogum": "1965-04-01",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Adalet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Adalet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Berat Albayrak",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Enerji ve Tabii Kaynaklar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Beşir Atalay",
+    "Dogum": "1947-04-01",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Binali Yıldırım",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "2016-05-25",
+        "Bitis": "2018-04-29"
+      },
+      {
+        "Tanimi": "Ulaştırma,Denizcilik ve Haberleşme Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Ulaştırma,Denizcilik ve Haberleşme Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Ulaştırma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Ulaştırma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Bülent Arınç",
+    "Dogum": "1948-05-25",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Bülent Ecevit",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1974-01-26",
+        "Bitis": "1974-11-17"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1977-06-21",
+        "Bitis": "1977-07-21"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1978-01-05",
+        "Bitis": "1979-11-12"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1999-01-11",
+        "Bitis": "1999-05-28"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1999-05-28",
+        "Bitis": "2002-11-19"
+      }
+    ]
+  },
+  {
+    "Ad": "Bülent Tüfenkçi",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Gümrük ve Ticaret Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Bülent Ulusu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1980-09-21",
+        "Bitis": "1983-12-13"
+      }
+    ]
+  },
+  {
+    "Ad": "Celal Bayar",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "1950-05-22",
+        "Bitis": "1960-05-27"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1937-10-25",
+        "Bitis": "1938-11-11"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1938-11-11",
+        "Bitis": "1939-01-25"
+      }
+    ]
+  },
+  {
+    "Ad": "Cemal Gürsel",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "1960-05-27",
+        "Bitis": "1966-03-28"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1960-05-30",
+        "Bitis": "1961-01-05"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1961-01-05",
+        "Bitis": "1961-10-27"
+      }
+    ]
+  },
+  {
+    "Ad": "Cemil Çiçek",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      },
+      {
+        "Tanimi": "Adalet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Adalet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Cenap Aşçı",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Gümrük ve Ticaret Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Cevdet Sunay",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "1966-03-28",
+        "Bitis": "1973-03-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Cevdet Yılmaz",
+    "Dogum": "1967-05-01",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Kalkınma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Kalkınma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Kalkınma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Efkan Ala",
+    "Dogum": "1965-02-21",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "İçişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "İçişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Egemen Bağış",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Avrupa Birliği Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Emrullah İşler",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Erdoğan Bayraktar",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Çevre ve Şehircilik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Erkan Mumcu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Kültür ve Turizm Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Milli Eğitim Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Ertuğrul Günay",
+    "Dogum": "1947-03-01",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Kültür ve Turizm Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Ertuğrul Yalçınbayır",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Fahri Korutürk",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "1973-04-06",
+        "Bitis": "1980-04-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Faruk Çelik",
+    "Dogum": "1956-01-17",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Gıda Tarım ve Hayvancılık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Çalışma ve Sosyal Güvenlik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Çalışma ve Sosyal Güvenlik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Faruk Nafiz Özak",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      },
+      {
+        "Tanimi": "Bayındırlık ve İskan Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Fatma Güldemet Sarı",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Çevre ve Şehircilik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Fatma Şahin",
+    "Dogum": "1966-06-20",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Aile ve Sosyal Politikalar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Feridun Bilgin",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Ulaştırma,Denizcilik ve Haberleşme Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Feridun Sinirlioğlu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Dışişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Ferit Melen",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1972-05-22",
+        "Bitis": "1973-04-15"
+      }
+    ]
+  },
+  {
+    "Ad": "Fikri Işık",
+    "Dogum": "1965-09-13",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Bilim Sanayi ve Teknoloji Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Bilim Sanayi ve Teknoloji Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Bilim Sanayi ve Teknoloji Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Güldal Akşit",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Turizm Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Hasan Saka",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1947-09-10",
+        "Bitis": "1948-06-10"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1948-06-10",
+        "Bitis": "1949-01-16"
+      }
+    ]
+  },
+  {
+    "Ad": "Hayati Yazıcı",
+    "Dogum": "1952-05-23",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Gümrük ve Ticaret Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Hilmi Güler",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Enerji ve Tabii Kaynaklar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Enerji ve Tabii Kaynaklar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Hüseyin Çelik",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Milli Eğitim Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Kültür Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "İdris Güllüce",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Çevre ve Şehircilik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Çevre ve Şehircilik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "İdris Naim Şahin",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "İçişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "İmdat Sütlüoğlu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Çevre Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "İsmet İnönü",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "1938-11-11",
+        "Bitis": "1950-05-22"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1923-11-01",
+        "Bitis": "1924-03-06"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1924-03-06",
+        "Bitis": "1924-11-22"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1925-03-04",
+        "Bitis": "1927-11-01"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1927-11-01",
+        "Bitis": "1930-09-27"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1930-09-27",
+        "Bitis": "1931-05-04"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1931-05-04",
+        "Bitis": "1935-03-01"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1935-03-01",
+        "Bitis": "1937-10-25"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1961-11-20",
+        "Bitis": "1962-06-25"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1962-06-25",
+        "Bitis": "1963-12-25"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1963-12-25",
+        "Bitis": "1965-02-20"
+      }
+    ]
+  },
+  {
+    "Ad": "İsmet Yılmaz",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Milli Savunma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Milli Savunma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Milli Savunma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Kemal Unakıtan",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Maliye Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Kenan Evren",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "1982-11-09",
+        "Bitis": "1989-11-09"
+      }
+    ]
+  },
+  {
+    "Ad": "Kenan İpek",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Adalet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Kudbettin Arzu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Gıda Tarım ve Hayvancılık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Kürşad Tüzmen",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Lütfi Elvan",
+    "Dogum": "1962-03-12",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Ulaştırma,Denizcilik ve Haberleşme Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Mahir Ünal",
+    "Dogum": "1966-07-01",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Kültür ve Turizm Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Mehdi Eker",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Gıda Tarım ve Hayvancılık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Mehmet Ali Şahin",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Mehmet Aydın",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Mehmet Habib Soluk",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Ulaştırma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Mehmet Mehdi Eker",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Gıda Tarım ve Hayvancılık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Tarım ve Köyişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      },
+      {
+        "Tanimi": "Tarım ve Köyişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Mehmet Müezzinoğlu",
+    "Dogum": "1955-01-09",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Sağlık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Sağlık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Sağlık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Sağlık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Mehmet Naim Talu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1973-04-15",
+        "Bitis": "1974-01-26"
+      }
+    ]
+  },
+  {
+    "Ad": "Mehmet Şimşek",
+    "Dogum": "1967-01-01",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Maliye Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Maliye Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Maliye Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Maliye Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Mehmet Vecdi Gönül",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Milli Savunma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      },
+      {
+        "Tanimi": "Milli Savunma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Milli Savunma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Mehmet Zafer Çağlayan",
+    "Dogum": "1957-11-15",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Ekonomi Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Mesut Yılmaz",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1991-06-23",
+        "Bitis": "1991-11-20"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1996-03-06",
+        "Bitis": "1996-06-28"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1997-06-30",
+        "Bitis": "1999-01-11"
+      }
+    ]
+  },
+  {
+    "Ad": "Mevlüt Çavuşoğlu",
+    "Dogum": "1968-02-05",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Dışişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Dışişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Muammer Güler",
+    "Dogum": "1949-03-21",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "İçişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Murat Başeskioğlu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Çalışma ve Sosyal Güvenlik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Çalışma ve Sosyal Güvenlik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Mustafa Demir",
+    "Dogum": "1961-01-18",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Bayındırlık ve İskan Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Mustafa Elitaş",
+    "Dogum": "1957-02-05",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Ekonomi Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Mustafa Kemal Atatürk",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "1923-10-29",
+        "Bitis": "1938-11-10"
+      }
+    ]
+  },
+  {
+    "Ad": "Mustafa Sait Yazıcıoğlu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Müslüm Doğan",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Kalkınma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Nabi Avcı",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Milli Eğitim Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Milli Eğitim Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Milli Eğitim Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Milli Eğitim Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Naci Ağbal",
+    "Dogum": "1968-01-01",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Maliye Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Nazım Erken",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Necmettin Erbakan",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1996-06-28",
+        "Bitis": "1997-06-30"
+      }
+    ]
+  },
+  {
+    "Ad": "Nihat Ergün",
+    "Dogum": "1962-09-14",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Bilim Sanayi ve Teknoloji Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Sanayi ve Ticaret Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Nihat Erim",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1971-03-26",
+        "Bitis": "1971-12-11"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1971-12-11",
+        "Bitis": "1972-05-22"
+      }
+    ]
+  },
+  {
+    "Ad": "Nihat Zeybekçi",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Ekonomi Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Ekonomi Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Nimet Çubukçu",
+    "Dogum": "1965-03-02",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Milli Eğitim Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      },
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Numan Kurtulmuş",
+    "Dogum": "1959-03-23",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Nurettin Canikli",
+    "Dogum": "1960-05-15",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Gümrük ve Ticaret Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Osman Güneş",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "İçişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Osman Pepe",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Çevre ve Orman Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Orman Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Ömer Çelik",
+    "Dogum": "1968-06-15",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Kültür ve Turizm Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Kültür ve Turizm Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Ömer Dinçer",
+    "Dogum": "1956-09-10",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Çalışma ve Sosyal Güvenlik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Recep Akdağ",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Sağlık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      },
+      {
+        "Tanimi": "Sağlık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Sağlık Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Recep Peker",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1946-08-07",
+        "Bitis": "1947-09-10"
+      }
+    ]
+  },
+  {
+    "Ad": "Recep Tayyip Erdoğan",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "2014-08-28",
+        "Bitis": "2018-04-29"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Refik Saydam",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1939-01-25",
+        "Bitis": "1939-04-03"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1939-04-03",
+        "Bitis": "1942-07-08"
+      }
+    ]
+  },
+  {
+    "Ad": "Sadi Irmak",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1974-11-17",
+        "Bitis": "1975-03-31"
+      }
+    ]
+  },
+  {
+    "Ad": "Sadullah Ergin",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Adalet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Sami Güçlü",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Tarım ve Köyişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Tarım ve Köyişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Selami Altınok",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "İçişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Selma Aliye Kavaf",
+    "Dogum": "1962-07-01",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Devlet Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Sema Ramazanoğlu",
+    "Dogum": "1959-08-25",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Aile ve Sosyal Politikalar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Suad Hayri Ürgüplü",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1965-02-20",
+        "Bitis": "1965-10-27"
+      }
+    ]
+  },
+  {
+    "Ad": "Suat Kılıç",
+    "Dogum": "1972-07-23",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Gençlik ve Spor Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      }
+    ]
+  },
+  {
+    "Ad": "Süleyman Demirel",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "1993-05-16",
+        "Bitis": "2000-05-16"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1965-10-27",
+        "Bitis": "1969-11-03"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1969-11-03",
+        "Bitis": "1970-03-06"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1970-03-06",
+        "Bitis": "1971-03-26"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1975-03-31",
+        "Bitis": "1977-06-21"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1977-07-21",
+        "Bitis": "1978-01-05"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1979-11-12",
+        "Bitis": "1980-09-21"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1991-11-20",
+        "Bitis": "1993-05-16"
+      }
+    ]
+  },
+  {
+    "Ad": "Süleyman Soylu",
+    "Dogum": "1969-10-21",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Çalışma ve Sosyal Güvenlik Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Şemsettin Günaltay",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1949-01-16",
+        "Bitis": "1950-05-22"
+      }
+    ]
+  },
+  {
+    "Ad": "Şükrü Saraçoğlu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1942-07-09",
+        "Bitis": "1943-03-09"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1943-03-09",
+        "Bitis": "1946-08-07"
+      }
+    ]
+  },
+  {
+    "Ad": "Taner Yıldız",
+    "Dogum": "1962-04-03",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Enerji ve Tabii Kaynaklar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Enerji ve Tabii Kaynaklar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Enerji ve Tabii Kaynaklar Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Tansu Çiller",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1993-06-25",
+        "Bitis": "1995-10-05"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1995-10-05",
+        "Bitis": "1995-10-30"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1995-10-30",
+        "Bitis": "1996-03-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Turgut Özal",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "C",
+        "Baslangic": "1989-11-09",
+        "Bitis": "1993-04-17"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1983-12-13",
+        "Bitis": "1987-12-21"
+      },
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1987-12-21",
+        "Bitis": "1989-11-09"
+      }
+    ]
+  },
+  {
+    "Ad": "Vecdi Gönül",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Milli Savunma Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Veysel Eroğlu",
+    "Dogum": "1948-08-18",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Orman ve Su İşleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Orman ve Su İşleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Orman ve Su İşleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      },
+      {
+        "Tanimi": "Orman ve Su İşleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2011-07-06",
+        "Bitis": "2014-08-29"
+      },
+      {
+        "Tanimi": "Çevre ve Orman Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2007-08-29",
+        "Bitis": "2011-07-06"
+      }
+    ]
+  },
+  {
+    "Ad": "Volkan Bozkır",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Avrupa Birliği Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Avrupa Birliği Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Yalçın Akdoğan",
+    "Dogum": "1969-09-22",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      },
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2014-08-29",
+        "Bitis": "2015-08-28"
+      }
+    ]
+  },
+  {
+    "Ad": "Yalçın Topçu",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Kültür ve Turizm Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Yaşar Yakış",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Dışişleri Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  },
+  {
+    "Ad": "Yıldırım Akbulut",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan",
+        "Kodu": "BB",
+        "Baslangic": "1989-11-09",
+        "Bitis": "1991-06-23"
+      }
+    ]
+  },
+  {
+    "Ad": "Yıldırım Tuğrul Türkeş",
+    "Dogum": "1954-12-01",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2015-11-25",
+        "Bitis": "2016-05-24"
+      },
+      {
+        "Tanimi": "Başbakan Yardımcısı",
+        "Kodu": "B",
+        "Baslangic": "2015-08-25",
+        "Bitis": "2015-11-24"
+      }
+    ]
+  },
+  {
+    "Ad": "Zeki Ergezen",
+    "Dogum": "",
+    "Olum": "",
+    "Gorevler": [
+      {
+        "Tanimi": "Bayındırlık ve İskan Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2003-03-14",
+        "Bitis": "2007-08-29"
+      },
+      {
+        "Tanimi": "Bayındırlık ve İskan Bakanı",
+        "Kodu": "B",
+        "Baslangic": "2002-11-19",
+        "Bitis": "2003-03-12"
+      }
+    ]
+  }
+]
