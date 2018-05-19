@@ -6,6 +6,8 @@ body {
 }
 fieldset{
     display: inline-block;
+    border-radius: 10px;
+   margin-left:30px;
 }
 
 ul{
@@ -13,15 +15,33 @@ ul{
     list-style-type: none;
     vertical-align: middle;
 }
-
+table {
+    margin-left: 10px;
+    border-collapse: collapse;
+}
+table, th, td {
+   border: 1px solid grey;
+    vertical-align: top;
+}
 /*          specifics         */
+#demo{
+   margin-top: 100px;
+}
+
 #header{
-    position: sticky;
-    background: blue;
+    position: fixed;
+    background: #131366;
     color: white;
     top:0;
-    height: 90px;
-    width:105em;
+    height: 80px;
+    width:1330px;
+    z-index: 1000;
+    border-radius: 3px;
+}
+#notes{
+    font-size: 10px;
+    z-index: 999;
+    position: relative;
 }
 
 /*          Classes         */
@@ -30,7 +50,7 @@ ul{
    }
 
 .item, .kisiadi{
-    width:225px;
+    width:350px;
     display: inline-block;
      
 }
@@ -39,20 +59,20 @@ ul{
 }
 
 .gorevline{
-    height: 0.5em; 
+    height: 5px; 
     background: #292929; /* Black fill */
     display: inline-block;
     position: absolute;
-    margin: 0;
+    margin: 5px;
     padding: 0;
-    border: 0;
+    border: 1px;
     vertical-align: middle;
     
   }
 .itemlist{
    /* list-style-type: none;*/
     margin: 0;
-    padding-left: 1em;
+    padding-left: 10px;
     background-color: white;
 }
 
@@ -62,7 +82,7 @@ ul{
     list-style-position: inside;
     border: 10;
     overflow: hidden;
-    width: 95vw;
+    width: 1320px;
    
    /* border-style: solid;
     border-width: 1px;*/
@@ -78,14 +98,11 @@ ul{
     cursor:default;
 }
 
-
-
-
-
 .hyear{
-    height:500px;
-    height: calc(95vh);
     background: red;
-    
+    height: 100px;
+    z-index: 998;
+   
 }
+
 
