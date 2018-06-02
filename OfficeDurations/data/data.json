@@ -1,8 +1,8 @@
 [
   {
     "Ad": "Mustafa Kemal ATATÜRK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1881",
+    "Olum": "1938",
     "Gorevler": [
       {
         "Tanimi": "Cumhurbaşkanı",
@@ -14,8 +14,8 @@
   },
   {
     "Ad": "Ahmet Muhtar CİLLİ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1871",
+    "Olum": "1958",
     "Gorevler": [
       {
         "Tanimi": "Nafıa Vekili",
@@ -27,8 +27,8 @@
   },
   {
     "Ad": "Mustafa İsmet İNÖNÜ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1884",
+    "Olum": "1973",
     "Gorevler": [
       {
         "Tanimi": "Hariciye Vekili",
@@ -76,8 +76,8 @@
   },
   {
     "Ad": "Mustafa Fevzi SARHAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1876",
+    "Olum": "1933",
     "Gorevler": [
       {
         "Tanimi": "Şer’iye Vekili",
@@ -89,8 +89,8 @@
   },
   {
     "Ad": "Fevzi ÇAKMAK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1876",
+    "Olum": "1950-04-10",
     "Gorevler": [
       {
         "Tanimi": "Erkanı Harbiyei Umumiye Vekili",
@@ -102,8 +102,8 @@
   },
   {
     "Ad": "Ahmet Ferit TEK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1879",
+    "Olum": "1971-11-25",
     "Gorevler": [
       {
         "Tanimi": "Dahiliye Vekili",
@@ -115,8 +115,8 @@
   },
   {
     "Ad": "Hasan Fehmi ATAÇ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1879",
+    "Olum": "1961-09-17",
     "Gorevler": [
       {
         "Tanimi": "Maliye Vekili",
@@ -134,8 +134,8 @@
   },
   {
     "Ad": "Kazım ÖZALP",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1882",
+    "Olum": "1968-06-6",
     "Gorevler": [
       {
         "Tanimi": "Müdafaai Milliye Vekili",
@@ -153,8 +153,8 @@
   },
   {
     "Ad": "Mustafa Necati UĞURAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1892",
+    "Olum": "1929-01-01",
     "Gorevler": [
       {
         "Tanimi": "Mübadele,İmar ve İskan Vekili",
@@ -178,8 +178,8 @@
   },
   {
     "Ad": "Refik SAYDAM",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1881",
+    "Olum": "1942-07-07",
     "Gorevler": [
       {
         "Tanimi": "Sıhhiye Vekili",
@@ -227,8 +227,8 @@
   },
   {
     "Ad": "Hasan SAKA",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1885",
+    "Olum": "1960-07-29",
     "Gorevler": [
       {
         "Tanimi": "İktisat Vekili",
@@ -270,8 +270,8 @@
   },
   {
     "Ad": "İsmail Safa ÖZLER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1887",
+    "Olum": "1940-06-28",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -296,8 +296,8 @@
   },
   {
     "Ad": "Mustafa Abdülhalik RENDA",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1881",
+    "Olum": "1957-10-01",
     "Gorevler": [
       {
         "Tanimi": "Maliye Vekili",
@@ -345,8 +345,8 @@
   },
   {
     "Ad": "Süleyman Sırrı BEY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1878",
+    "Olum": "1963-01-18",
     "Gorevler": [
       {
         "Tanimi": "Nafıa Vekili",
@@ -364,8 +364,8 @@
   },
   {
     "Ad": "Aziz Zekai APAYDIN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1877",
+    "Olum": "1947-04-29",
     "Gorevler": [
       {
         "Tanimi": "Ziraat Vekili",
@@ -389,8 +389,8 @@
   },
   {
     "Ad": "Mahmut Celal BAYAR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1883",
+    "Olum": "1986-08-22",
     "Gorevler": [
       {
         "Tanimi": "Mübadele,İmar ve İskan Vekili",
@@ -409,13 +409,19 @@
         "Kodu": "Başbakan",
         "Baslangic": "1937-11-01",
         "Bitis": "1939-01-25"
+      },
+       {
+        "Tanimi": "Cumhurbaşkanı",
+        "Kodu": "Cumhurbaşkanı",
+        "Baslangic": "1950-05-22",
+        "Bitis": "1960-05-27"
       }
     ]
   },
   {
     "Ad": "Hüseyin Vasıf ÇINAR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1892",
+    "Olum": "1935-06-03",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -433,8 +439,8 @@
   },
   {
     "Ad": "Mehmet Recep PEKER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1887",
+    "Olum": "1950-04-02",
     "Gorevler": [
       {
         "Tanimi": "Maliye Vekili",
@@ -476,8 +482,8 @@
   },
   {
     "Ad": "Refet CANITEZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1880",
+    "Olum": "1946-07-20",
     "Gorevler": [
       {
         "Tanimi": "Mübadele,İmar ve İskan Vekili",
@@ -489,8 +495,8 @@
   },
   {
     "Ad": "Şükrü KAYA",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1883",
+    "Olum": "1959-01-10",
     "Gorevler": [
       {
         "Tanimi": "Ziraat Vekili",
@@ -514,8 +520,8 @@
   },
   {
     "Ad": "Mahmut Esat BOZKURT",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1892",
+    "Olum": "1943-12-21",
     "Gorevler": [
       {
         "Tanimi": "Adliye Vekili",
@@ -527,8 +533,8 @@
   },
   {
     "Ad": "Ali Fethi OKYAR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1881",
+    "Olum": "1943-05-07",
     "Gorevler": [
       {
         "Tanimi": "Müdafaai Milliye Vekili",
@@ -552,8 +558,8 @@
   },
   {
     "Ad": "Mehmet Şükrü SARAÇOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1886",
+    "Olum": "1953-12-27",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -589,8 +595,8 @@
   },
   {
     "Ad": "Ali CENANİ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1872",
+    "Olum": "1934-12-05",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Vekili",
@@ -602,8 +608,8 @@
   },
   {
     "Ad": "Mazhar GERMEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1884",
+    "Olum": "1967-11-06",
     "Gorevler": [
       {
         "Tanimi": "Sıhhiye ve İçtimai Muavenet Vekili",
@@ -615,8 +621,8 @@
   },
   {
     "Ad": "Feyzi PİRİNÇCİOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1878",
+    "Olum": "1933-02-17",
     "Gorevler": [
       {
         "Tanimi": "Nafıa Vekili",
@@ -628,8 +634,8 @@
   },
   {
     "Ad": "İhsan ERYAVUZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1875",
+    "Olum": "1947-03-06",
     "Gorevler": [
       {
         "Tanimi": "Bahriye Vekili",
@@ -641,8 +647,8 @@
   },
   {
     "Ad": "Mehmet Cemil UYBADIN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1883",
+    "Olum": "1957-07-05",
     "Gorevler": [
       {
         "Tanimi": "Dahiliye Vekili ve Mübadele,İmar ve İskan Vekaleti Vekili",
@@ -660,8 +666,8 @@
   },
   {
     "Ad": "Tevfik Rüştü ARAS",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1883",
+    "Olum": "1972-01-05",
     "Gorevler": [
       {
         "Tanimi": "Hariciye Vekili",
@@ -673,8 +679,8 @@
   },
   {
     "Ad": "Mehmet Sabri TOPRAK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1877",
+    "Olum": "1938-02-19",
     "Gorevler": [
       {
         "Tanimi": "Ziraat Vekili",
@@ -686,8 +692,8 @@
   },
   {
     "Ad": "Hamdullah Suphi TANRIÖVER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1885",
+    "Olum": "1966-06-10",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -699,8 +705,8 @@
   },
   {
     "Ad": "Behiç ERKİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1876",
+    "Olum": "1961-11-11",
     "Gorevler": [
       {
         "Tanimi": "Nafıa Vekili",
@@ -712,8 +718,8 @@
   },
   {
     "Ad": "Mustafa Rahmi KÖKEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1881",
+    "Olum": "1952-07-07",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Vekili",
@@ -737,8 +743,8 @@
   },
   {
     "Ad": "Cemal Hüsnü TARAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1893",
+    "Olum": "1975-02-11",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -750,8 +756,8 @@
   },
   {
     "Ad": "Şakir KESEBİR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1889",
+    "Olum": "1966-04-06",
     "Gorevler": [
       {
         "Tanimi": "İktisat Vekili",
@@ -781,8 +787,8 @@
   },
   {
     "Ad": "Yusuf Kemal TENGİRŞENK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1878",
+    "Olum": "1969-04-15",
     "Gorevler": [
       {
         "Tanimi": "Adliye Vekili",
@@ -794,8 +800,8 @@
   },
   {
     "Ad": "Esat SAGAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1874",
+    "Olum": "1938-05-22",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -807,8 +813,8 @@
   },
   {
     "Ad": "Mustafa Şeref ÖZKAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1884",
+    "Olum": "1938-09-10",
     "Gorevler": [
       {
         "Tanimi": "İktisat Vekili",
@@ -820,8 +826,8 @@
   },
   {
     "Ad": "Hilmi URAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1884",
+    "Olum": "1957-10-21",
     "Gorevler": [
       {
         "Tanimi": "Nafıa Vekili",
@@ -845,8 +851,8 @@
   },
   {
     "Ad": "Muhlis ERKMEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1891",
+    "Olum": "1985-06-27",
     "Gorevler": [
       {
         "Tanimi": "Ziraat Vekili",
@@ -864,8 +870,8 @@
   },
   {
     "Ad": "Ali Rana TARHAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1881",
+    "Olum": "1956-03-24",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve İnhisarlar Vekili",
@@ -877,8 +883,8 @@
   },
   {
     "Ad": "Reşit GALİP",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1893",
+    "Olum": "1934-03-05",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -890,8 +896,8 @@
   },
   {
     "Ad": "Yusuf Hikmet BAYUR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1892",
+    "Olum": "1980-03-06",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -903,8 +909,8 @@
   },
   {
     "Ad": "Fuat AĞRALI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1878",
+    "Olum": "1957-05-11",
     "Gorevler": [
       {
         "Tanimi": "Maliye Vekili",
@@ -922,8 +928,8 @@
   },
   {
     "Ad": "Ali ÇETİNKAYA",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1878",
+    "Olum": "1949-02-22",
     "Gorevler": [
       {
         "Tanimi": "Nafıa Vekili",
@@ -941,8 +947,8 @@
   },
   {
     "Ad": "Zeynel Abidin ÖZMEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1890",
+    "Olum": "1966-08-20",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -954,8 +960,8 @@
   },
   {
     "Ad": "Saffet ARIKAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1887",
+    "Olum": "1947-11-26",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -973,8 +979,8 @@
   },
   {
     "Ad": "Ahmet Hulusi ALATAŞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1882",
+    "Olum": "1964-03-29",
     "Gorevler": [
       {
         "Tanimi": "Sıhhat ve İçtimai Muavenet Vekili",
@@ -998,8 +1004,8 @@
   },
   {
     "Ad": "Faik KURDOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1892",
+    "Olum": "1981-04-14",
     "Gorevler": [
       {
         "Tanimi": "Ziraat Vekili",
@@ -1017,8 +1023,8 @@
   },
   {
     "Ad": "Hasan Ali YÜCEL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1897",
+    "Olum": "1961-02-26",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -1036,8 +1042,8 @@
   },
   {
     "Ad": "Hüseyin Hüsnü ÇAKIR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1893",
+    "Olum": "1963-08-10",
     "Gorevler": [
       {
         "Tanimi": "İktisat Vekili",
@@ -1055,8 +1061,8 @@
   },
   {
     "Ad": "Tevfik Fikret SILAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1890",
+    "Olum": "1959-04-20",
     "Gorevler": [
       {
         "Tanimi": "Adliye Vekili",
@@ -1068,8 +1074,8 @@
   },
   {
     "Ad": "Naci TINAZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1882",
+    "Olum": "1964-11-26",
     "Gorevler": [
       {
         "Tanimi": "Milli Müdafaa Vekili",
@@ -1081,8 +1087,8 @@
   },
   {
     "Ad": "Faik ÖZTRAK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1882",
+    "Olum": "1951-05-30",
     "Gorevler": [
       {
         "Tanimi": "Dahiliye Vekili",
@@ -1094,8 +1100,8 @@
   },
   {
     "Ad": "Ali Fuat CEBESOY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1882",
+    "Olum": "1968-01-10",
     "Gorevler": [
       {
         "Tanimi": "Nafıa Vekili",
@@ -1119,8 +1125,8 @@
   },
   {
     "Ad": "Cezmi ERÇİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1894",
+    "Olum": "1940-12-24",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Vekili",
@@ -1132,8 +1138,8 @@
   },
   {
     "Ad": "Raif KARADENİZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1895",
+    "Olum": "1976-06-30",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve İnhisarlar Vekili",
@@ -1157,8 +1163,8 @@
   },
   {
     "Ad": "Nazmi TOPÇUOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1888",
+    "Olum": "1956-03-24",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Vekili",
@@ -1170,8 +1176,8 @@
   },
   {
     "Ad": "Cevdet Kerim İNCEDAYI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1893",
+    "Olum": "1951-05-29",
     "Gorevler": [
       {
         "Tanimi": "Muhabere ve Münakale Vekili",
@@ -1189,8 +1195,8 @@
   },
   {
     "Ad": "Mümtaz ÖKMEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1895",
+    "Olum": "1961-05-28",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Vekili",
@@ -1220,8 +1226,8 @@
   },
   {
     "Ad": "Hasan Safyettin MENEMENCİOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1891",
+    "Olum": "1952-07-17",
     "Gorevler": [
       {
         "Tanimi": "Adliye Vekili",
@@ -1239,8 +1245,8 @@
   },
   {
     "Ad": "Sırrı DAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1892",
+    "Olum": "1952-10-20",
     "Gorevler": [
       {
         "Tanimi": "İktisat Vekili",
@@ -1264,8 +1270,8 @@
   },
   {
     "Ad": "Ali Rıza ARTUNKAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1881",
+    "Olum": "1959-12-12",
     "Gorevler": [
       {
         "Tanimi": "Milli Müdafaa Vekili",
@@ -1283,8 +1289,8 @@
   },
   {
     "Ad": "Mehmet Fahri ENGİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1888",
+    "Olum": "1970-11-06",
     "Gorevler": [
       {
         "Tanimi": "Muhabere ve Münakale Vekili",
@@ -1302,8 +1308,8 @@
   },
   {
     "Ad": "Ahmet Fikri TÜZER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1877",
+    "Olum": "1942-08-16",
     "Gorevler": [
       {
         "Tanimi": "Dahiliye Vekili",
@@ -1321,8 +1327,8 @@
   },
   {
     "Ad": "Behçet UZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1893",
+    "Olum": "1986-05-19",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Bakanı",
@@ -1346,8 +1352,8 @@
   },
   {
     "Ad": "Şevket Raşit HATİPOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1898",
+    "Olum": "1973-11-11",
     "Gorevler": [
       {
         "Tanimi": "Ziraat Bakanı",
@@ -1371,8 +1377,8 @@
   },
   {
     "Ad": "Numan MENEMENCİOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1893",
+    "Olum": "1958-02-15",
     "Gorevler": [
       {
         "Tanimi": "Hariciye Bakanı",
@@ -1384,8 +1390,8 @@
   },
   {
     "Ad": "Ali Rıza TÜREL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1899",
+    "Olum": "1960-09-25",
     "Gorevler": [
       {
         "Tanimi": "Adliye Bakanı",
@@ -1397,8 +1403,8 @@
   },
   {
     "Ad": "Fuat SİRMEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1899",
+    "Olum": "1981-05-17",
     "Gorevler": [
       {
         "Tanimi": "İktisat Bakanı",
@@ -1416,8 +1422,8 @@
   },
   {
     "Ad": "Celal Sait SİREN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1906",
+    "Olum": "1991-06-08",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Bakanı",
@@ -1429,8 +1435,8 @@
   },
   {
     "Ad": "Suat Hayri ÜRGÜPLÜ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1903",
+    "Olum": "1981-12-26",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve İnhisarlar Bakanı",
@@ -1448,8 +1454,8 @@
   },
   {
     "Ad": "Nurullah Esat SÜMER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1899",
+    "Olum": "1973-09-30",
     "Gorevler": [
       {
         "Tanimi": "Maliye Bakanı",
@@ -1467,8 +1473,8 @@
   },
   {
     "Ad": "Sadi KONUK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1894",
+    "Olum": "1964-12*07",
     "Gorevler": [
       {
         "Tanimi": "Sıhhat ve İçtimai Muavenet Vekili",
@@ -1480,8 +1486,8 @@
   },
   {
     "Ad": "Mahmut Sadi IRMAK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1904",
+    "Olum": "1990-11-11",
     "Gorevler": [
       {
         "Tanimi": "Çalışma Vekili",
@@ -1505,8 +1511,8 @@
   },
   {
     "Ad": "Tahsin COŞKAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1890",
+    "Olum": "1952-0313",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve İnhisarlar Bakanı",
@@ -1530,8 +1536,8 @@
   },
   {
     "Ad": "Şükrü SÖKMENSÜER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1890",
+    "Olum": "1978-10-18",
     "Gorevler": [
       {
         "Tanimi": "İçişleri Bakanı",
@@ -1543,8 +1549,8 @@
   },
   {
     "Ad": "Cemil Cahit TOYDEMİR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1883",
+    "Olum": "1956-07-14",
     "Gorevler": [
       {
         "Tanimi": "Milli Savunma Bakanı",
@@ -1556,8 +1562,8 @@
   },
   {
     "Ad": "Halit Nazmi KEŞMİR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1897",
+    "Olum": "1948-03-24",
     "Gorevler": [
       {
         "Tanimi": "Maliye Bakanı",
@@ -1569,8 +1575,8 @@
   },
   {
     "Ad": "Reşat Şemsettin SİRER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1901",
+    "Olum": "1953-10-02",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -1588,8 +1594,8 @@
   },
   {
     "Ad": "Atıf İNAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1895",
+    "Olum": "1970-05-07",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Bakanı",
@@ -1601,8 +1607,8 @@
   },
   {
     "Ad": "Şükrü KOÇAK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1884",
+    "Olum": "1961",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -1614,8 +1620,8 @@
   },
   {
     "Ad": "Tahsin Bekir BALTA",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1902",
+    "Olum": "1970-07-24",
     "Gorevler": [
       {
         "Tanimi": "Ekonomi Bakanı",
@@ -1633,8 +1639,8 @@
   },
   {
     "Ad": "Şinasi DEVRİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1906",
+    "Olum": "1952-06-13",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -1646,8 +1652,8 @@
   },
   {
     "Ad": "Hasan Şevket ADALAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1901",
+    "Olum": "1989-11-02",
     "Gorevler": [
       {
         "Tanimi": "Tarım Bakanı",
@@ -1677,8 +1683,8 @@
   },
   {
     "Ad": "Münir Hüsrev GÖLE",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1890",
+    "Olum": "1955-08-21",
     "Gorevler": [
       {
         "Tanimi": "İçişleri Bakanı",
@@ -1690,8 +1696,8 @@
   },
   {
     "Ad": "Cavit EKİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1895",
+    "Olum": "1976-01-05",
     "Gorevler": [
       {
         "Tanimi": "Ekonomi Bakanı",
@@ -1703,8 +1709,8 @@
   },
   {
     "Ad": "Mustafa Münir BİRSEL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1897",
+    "Olum": "1990-02-24",
     "Gorevler": [
       {
         "Tanimi": "Milli Savunma Bakanı",
@@ -1722,8 +1728,8 @@
   },
   {
     "Ad": "Faik Ahmet BARUTÇU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1894",
+    "Olum": "1959-03-14",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
@@ -1735,8 +1741,8 @@
   },
   {
     "Ad": "Mahmut Nedim GÜNDÜZALP",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1892",
+    "Olum": "1989-01-25",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Bakanı",
@@ -1748,8 +1754,8 @@
   },
   {
     "Ad": "Kasım Rifat GÜLEK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1905",
+    "Olum": "1996-01-19",
     "Gorevler": [
       {
         "Tanimi": "Bayındırlık Bakanı",
@@ -1767,8 +1773,8 @@
   },
   {
     "Ad": "Necmettin Sadık SADAK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1892",
+    "Olum": "1953-09-21",
     "Gorevler": [
       {
         "Tanimi": "Dışişleri Bakanı",
@@ -1780,8 +1786,8 @@
   },
   {
     "Ad": "Cemil Said BARLAS",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1905",
+    "Olum": "1964-10-10",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Bakanı",
@@ -1805,8 +1811,8 @@
   },
   {
     "Ad": "Ali Cavit ORAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1904",
+    "Olum": "1983-06-09",
     "Gorevler": [
       {
         "Tanimi": "Tarım Bakanı",
@@ -1824,8 +1830,8 @@
   },
   {
     "Ad": "Emin ERİŞİRGİL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1888",
+    "Olum": "1965-02-07",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve Tekel Bakanı",
@@ -1843,8 +1849,8 @@
   },
   {
     "Ad": "Kemali BAYAZIT",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1903",
+    "Olum": "1972-03-19",
     "Gorevler": [
       {
         "Tanimi": "Sağlık ve Sosyal Yardım Bakanı",
@@ -1856,8 +1862,8 @@
   },
   {
     "Ad": "İsmail Nihat ERİM",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1912",
+    "Olum": "1980-07-19",
     "Gorevler": [
       {
         "Tanimi": "Bayındırlık Bakanı",
@@ -1881,8 +1887,8 @@
   },
   {
     "Ad": "Hasan Tahsin BANGUOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1904",
+    "Olum": "1989-03-03",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -1894,8 +1900,8 @@
   },
   {
     "Ad": "Ali Rıza ERTEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1887",
+    "Olum": "1964-05-14",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -1907,8 +1913,8 @@
   },
   {
     "Ad": "Mehmet Şemsettin GÜNALTAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1883",
+    "Olum": "1961-10-19",
     "Gorevler": [
       {
         "Tanimi": "Başbakan",
@@ -1920,8 +1926,8 @@
   },
   {
     "Ad": "İsmail Rüştü AKSAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "1989-09-13",
     "Gorevler": [
       {
         "Tanimi": "Maliye Bakanı",
@@ -1933,8 +1939,8 @@
   },
   {
     "Ad": "Kemal SATIR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "1991-05-23",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -1958,8 +1964,8 @@
   },
   {
     "Ad": "Fazıl Şerafettin BÜRGE",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1897",
+    "Olum": "1970-12-07",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve Tekel Bakanı",
@@ -1971,8 +1977,8 @@
   },
   {
     "Ad": "Vedat DİCLELİ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1912",
+    "Olum": "1975-02-12",
     "Gorevler": [
       {
         "Tanimi": "Ekonomi ve Ticaret Bakanı",
@@ -1982,20 +1988,7 @@
       }
     ]
   },
-  {
-    "Ad": "Celal BAYAR",
-    "Dogum": "",
-    "Olum": "",
-    "Gorevler": [
-      {
-        "Tanimi": "Cumhurbaşkanı",
-        "Kodu": "Cumhurbaşkanı",
-        "Baslangic": "1950-05-22",
-        "Bitis": "1960-05-27"
-      }
-    ]
-  },
-  {
+   {
     "Ad": "Halil ÖZYÖRÜK",
     "Dogum": "",
     "Olum": "",
@@ -2016,8 +2009,8 @@
   },
   {
     "Ad": "Refik Şevket İNCE",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1884",
+    "Olum": "1955-04-24",
     "Gorevler": [
       {
         "Tanimi": "Milli Savunma Bakanı",
@@ -2054,8 +2047,8 @@
   },
   {
     "Ad": "Fuat KÖPRÜLÜ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1890",
+    "Olum": "1966-06-28",
     "Gorevler": [
       {
         "Tanimi": "Dışişleri Bakanı",
@@ -2085,8 +2078,8 @@
   },
   {
     "Ad": "Halil AYAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1904",
+    "Olum": "1953-02-15",
     "Gorevler": [
       {
         "Tanimi": "Maliye Bakanı",
@@ -2098,8 +2091,8 @@
   },
   {
     "Ad": "Mehmet Muhlis ETE",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1904",
+    "Olum": "1975-02-04",
     "Gorevler": [
       {
         "Tanimi": "İşletmeler Bakanı",
@@ -2123,8 +2116,8 @@
   },
   {
     "Ad": "Hüseyin Avni BAŞMAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1887",
+    "Olum": "1965-03-19",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -2136,8 +2129,8 @@
   },
   {
     "Ad": "Hasan POLATKAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "1961-09-16",
     "Gorevler": [
       {
         "Tanimi": "Çalışma Bakanı",
@@ -2167,8 +2160,8 @@
   },
   {
     "Ad": "Fahri BELEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1893",
+    "Olum": "1975-07-15",
     "Gorevler": [
       {
         "Tanimi": "Bayındırlık Bakanı",
@@ -2180,8 +2173,8 @@
   },
   {
     "Ad": "Ahmet Tevfik İLERİ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1912",
+    "Olum": "1961-12-31",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -2217,8 +2210,8 @@
   },
   {
     "Ad": "Nihat İYRİBOZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1893",
+    "Olum": "1988-03-31",
     "Gorevler": [
       {
         "Tanimi": "Tarım Bakanı",
@@ -2230,8 +2223,8 @@
   },
   {
     "Ad": "Nuri ÖZSAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1906",
+    "Olum": "1969-07-23",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve Tekel Bakanı",
@@ -2255,8 +2248,8 @@
   },
   {
     "Ad": "Zühtü Hilmi VELİBEŞE",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1892",
+    "Olum": "1961-09-11",
     "Gorevler": [
       {
         "Tanimi": "Ekonomi ve Ticaret Bakanı",
@@ -2268,8 +2261,8 @@
   },
   {
     "Ad": "Nihat Reşat BELGER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1883",
+    "Olum": "1961-09-29",
     "Gorevler": [
       {
         "Tanimi": "Sağlık ve Sosyal Yardım Bakanı",
@@ -2281,8 +2274,8 @@
   },
   {
     "Ad": "Adnan MENDERES",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1899",
+    "Olum": "1961-09-17",
     "Gorevler": [
       {
         "Tanimi": "Başbakan",
@@ -2312,8 +2305,8 @@
   },
   {
     "Ad": "Samet AĞAOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1909",
+    "Olum": "1982-08-06",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
@@ -2349,8 +2342,8 @@
   },
   {
     "Ad": "Fevzi Lütfi KARAOSMANOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1914",
+    "Olum": "1975-05-21",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -2374,8 +2367,8 @@
   },
   {
     "Ad": "Seyfi KURTBEK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1905",
+    "Olum": "1995-03-27",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -2393,8 +2386,8 @@
   },
   {
     "Ad": "Ekrem Hayri ÜSTÜNDAĞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1884",
+    "Olum": "1956-06-15",
     "Gorevler": [
       {
         "Tanimi": "Sağlık ve Sosyal Yardım Bakanı",
@@ -2406,8 +2399,8 @@
   },
   {
     "Ad": "Ahmet Hulusi KÖYMEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1891",
+    "Olum": "1965-07-12",
     "Gorevler": [
       {
         "Tanimi": "Çalışma Bakanı",
@@ -2425,8 +2418,8 @@
   },
   {
     "Ad": "Kemal ZEYTİNOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "1959-02-17",
     "Gorevler": [
       {
         "Tanimi": "Bayındırlık Bakanı",
@@ -2443,9 +2436,9 @@
     ]
   },
   {
-    "Ad": "İbrahim Hakkı GEDİK",
-    "Dogum": "",
-    "Olum": "",
+    "Ad": "İsmail Hakkı GEDİK",
+    "Dogum": "1896",
+    "Olum": "1975-05-17",
     "Gorevler": [
       {
         "Tanimi": "İşletmeler Bakanı",
@@ -2457,8 +2450,8 @@
   },
   {
     "Ad": "Nedim ÖKMEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1908",
+    "Olum": "1967-02-02",
     "Gorevler": [
       {
         "Tanimi": "Tarım Bakanı",
@@ -2488,8 +2481,8 @@
   },
   {
     "Ad": "Rıfkı Salim BURÇAK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "1998-08-29",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve Tekel Bakanı",
@@ -2507,8 +2500,8 @@
   },
   {
     "Ad": "İbrahim Sıtkı YIRCALI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1908",
+    "Olum": "1988-12-29",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve Tekel Bakanı",
@@ -2544,8 +2537,8 @@
   },
   {
     "Ad": "İbrahim Etem MENDERES",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1899",
+    "Olum": "1992-09-18",
     "Gorevler": [
       {
         "Tanimi": "İçişleri Bakanı",
@@ -2587,8 +2580,8 @@
   },
   {
     "Ad": "Yunus Muammer ALAKANT",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1904",
+    "Olum": "1974-04-15",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -2600,8 +2593,8 @@
   },
   {
     "Ad": "Ali Enver GÜRELİ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1914",
+    "Olum": "1982-06-13",
     "Gorevler": [
       {
         "Tanimi": "Ekonomi ve Ticaret Bakanı",
@@ -2613,8 +2606,8 @@
   },
   {
     "Ad": "Yümnü ÜRESİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1898",
+    "Olum": "1961-05-29",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -2626,8 +2619,8 @@
   },
   {
     "Ad": "Osman Şevki ÇİÇEKDAĞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1899",
+    "Olum": "1956-07-21",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -2645,8 +2638,8 @@
   },
   {
     "Ad": "Emin KALAFAT",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1902",
+    "Olum": "1984-11-10",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve Tekel Bakanı",
@@ -2670,8 +2663,8 @@
   },
   {
     "Ad": "Hüseyin Celal YARDIMCI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "1986-01-10",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -2707,8 +2700,8 @@
   },
   {
     "Ad": "Hayrettin ERKMEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "1999-05-18",
     "Gorevler": [
       {
         "Tanimi": "Çalışma Bakanı",
@@ -2750,8 +2743,8 @@
   },
   {
     "Ad": "Fethi ÇELİKBAŞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1912",
+    "Olum": "2009-10-31",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -2787,8 +2780,8 @@
   },
   {
     "Ad": "Kenan YILMAZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1900",
+    "Olum": "1961-08-05",
     "Gorevler": [
       {
         "Tanimi": "Milli Savunma Bakanı",
@@ -2800,8 +2793,8 @@
   },
   {
     "Ad": "Osman KAPANİ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "1981-02-19",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili",
@@ -2813,8 +2806,8 @@
   },
   {
     "Ad": "Fatin Rüştü ZORLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1910",
+    "Olum": "1961-09-16",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili ve Başvekil Yardımcısı",
@@ -2838,8 +2831,8 @@
   },
   {
     "Ad": "Mükerrem SAROL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1908",
+    "Olum": "1995-11-08",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili",
@@ -2851,8 +2844,8 @@
   },
   {
     "Ad": "Mehmet Muammer ÇAVUŞOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1903",
+    "Olum": "1972-08-09",
     "Gorevler": [
       {
         "Tanimi": "Münakalat Vekili",
@@ -2870,8 +2863,8 @@
   },
   {
     "Ad": "Namık GEDİK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "1960-05-29",
     "Gorevler": [
       {
         "Tanimi": "Dahiliye Vekili",
@@ -2889,8 +2882,8 @@
   },
   {
     "Ad": "Fahrettin ULAŞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "1980-04-13",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili",
@@ -2908,8 +2901,8 @@
   },
   {
     "Ad": "Mehmet Cemil BENGÜ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1914",
+    "Olum": "1958-04-16",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili",
@@ -2921,8 +2914,8 @@
   },
   {
     "Ad": "Şemi ERGİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "1996-01-18",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili",
@@ -2946,8 +2939,8 @@
   },
   {
     "Ad": "Hüseyin Avni GÖKTÜRK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1901",
+    "Olum": "1983-07-16",
     "Gorevler": [
       {
         "Tanimi": "Adliye Vekili",
@@ -2959,8 +2952,8 @@
   },
   {
     "Ad": "Mehmet Mümtaz TARHAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1907",
+    "Olum": "1970-01-18",
     "Gorevler": [
       {
         "Tanimi": "Çalışma Vekili",
@@ -2972,8 +2965,8 @@
   },
   {
     "Ad": "Arif DEMİRER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1909",
+    "Olum": "1995-07-10",
     "Gorevler": [
       {
         "Tanimi": "Münakalat Vekili",
@@ -2985,8 +2978,8 @@
   },
   {
     "Ad": "Esat BUDAKOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "1994-05-11",
     "Gorevler": [
       {
         "Tanimi": "Ziraat Vekili",
@@ -3004,8 +2997,8 @@
   },
   {
     "Ad": "Hadi HÜSMAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1904",
+    "Olum": "1987-01-17",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve İnhisarlar Vekili",
@@ -3017,8 +3010,8 @@
   },
   {
     "Ad": "Nafiz KÖREZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1909",
+    "Olum": "1993-06-14",
     "Gorevler": [
       {
         "Tanimi": "Sıhhat ve İçtimai Muavenet Vekili",
@@ -3043,8 +3036,8 @@
   },
   {
     "Ad": "Ahmet ÖZEL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1910",
+    "Olum": "1978-09-05",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -3056,8 +3049,8 @@
   },
   {
     "Ad": "Zeyyat MANDALİNCİ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "1990-07-19",
     "Gorevler": [
       {
         "Tanimi": "İktisat ve Ticaret Vekili",
@@ -3069,8 +3062,8 @@
   },
   {
     "Ad": "Abdullah AKER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1905",
+    "Olum": "1977-02-28",
     "Gorevler": [
       {
         "Tanimi": "İktisat ve Ticaret Vekili",
@@ -3100,8 +3093,8 @@
   },
   {
     "Ad": "Muzaffer KURBANOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "2006-03-09",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili",
@@ -3119,8 +3112,8 @@
   },
   {
     "Ad": "Medeni BERK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "1994-03-16",
     "Gorevler": [
       {
         "Tanimi": "İmar ve İskan Vekili",
@@ -3138,8 +3131,8 @@
   },
   {
     "Ad": "Lütfi KIRDAR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1888",
+    "Olum": "1961-02-17",
     "Gorevler": [
       {
         "Tanimi": "Sıhhat ve İçtimai Muavenet Vekili",
@@ -3151,8 +3144,8 @@
   },
   {
     "Ad": "Fevzi UÇANER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1900",
+    "Olum": "1963-05-19",
     "Gorevler": [
       {
         "Tanimi": "Münakalat Vekili",
@@ -3164,8 +3157,8 @@
   },
   {
     "Ad": "Ahmet Sebati ATAMAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1907",
+    "Olum": "1992-12-19",
     "Gorevler": [
       {
         "Tanimi": "Koordinasyon Vekili",
@@ -3183,8 +3176,8 @@
   },
   {
     "Ad": "Ali Server SOMUNCUOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1912",
+    "Olum": "1959-02-17",
     "Gorevler": [
       {
         "Tanimi": "Basın Yayın ve Turizm Vekili",
@@ -3196,8 +3189,8 @@
   },
   {
     "Ad": "Ahmet Haluk ŞAMAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "1986-02-26",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili",
@@ -3215,8 +3208,8 @@
   },
   {
     "Ad": "Yusuf İzzet AKÇAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1906",
+    "Olum": "1987-09-01",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili",
@@ -3228,8 +3221,8 @@
   },
   {
     "Ad": "Mehmet Atıf BENDERLİOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1910",
+    "Olum": "1992-04-27",
     "Gorevler": [
       {
         "Tanimi": "Maarif Vekili",
@@ -3291,8 +3284,8 @@
   },
   {
     "Ad": "Osman Şefik İNAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "1972-01-27",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili",
@@ -3387,8 +3380,8 @@
   },
   {
     "Ad": "Selim Rauf SARPER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1899",
+    "Olum": "1968-10-11",
     "Gorevler": [
       {
         "Tanimi": "Hariciye Bakanı",
@@ -3444,8 +3437,8 @@
   },
   {
     "Ad": "Ekrem ALİCAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1916",
+    "Olum": "2000-06-17",
     "Gorevler": [
       {
         "Tanimi": "Maliye Bakanı",
@@ -3597,8 +3590,8 @@
   },
   {
     "Ad": "Salih Ragıp ÜNER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1914",
+    "Olum": "1994-08-31",
     "Gorevler": [
       {
         "Tanimi": "Sıhhat ve İçtimai Muavenet Bakanı",
@@ -3622,8 +3615,8 @@
   },
   {
     "Ad": "Mehmet Hayri MUMCUOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1914",
+    "Olum": "1986-06-10",
     "Gorevler": [
       {
         "Tanimi": "Devlet Vekili",
@@ -3761,8 +3754,8 @@
   },
   {
     "Ad": "Hüseyin ATAMAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1900",
+    "Olum": "1975-02-10",
     "Gorevler": [
       {
         "Tanimi": "Milli Müdafaa Bakanı",
@@ -3819,8 +3812,8 @@
   },
   {
     "Ad": "Mustafa Cihat BABAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "1984-09-28",
     "Gorevler": [
       {
         "Tanimi": "Basın Yayın ve Turizm Bakanı",
@@ -3838,8 +3831,8 @@
   },
   {
     "Ad": "Ahmet TAHTAKILIÇ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1909",
+    "Olum": "2000-12-13",
     "Gorevler": [
       {
         "Tanimi": "Çalışma Bakanı",
@@ -3870,8 +3863,8 @@
   },
   {
     "Ad": "Turhan FEYZİOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1922",
+    "Olum": "1988-03-25",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -3907,8 +3900,8 @@
   },
   {
     "Ad": "Mehmet Rüştü ÖZAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "2008-03-13",
     "Gorevler": [
       {
         "Tanimi": "İmar ve İskan Bakanı",
@@ -3933,8 +3926,8 @@
   },
   {
     "Ad": "Kemal TÜRKOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "2005-03-12",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -3997,8 +3990,8 @@
   },
   {
     "Ad": "Avni DOĞAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1892",
+    "Olum": "1965-06-14",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -4010,8 +4003,8 @@
   },
   {
     "Ad": "Mehmet Muhittin GÜVEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "1991-01-13",
     "Gorevler": [
       {
         "Tanimi": "İmar ve İskan Bakanı",
@@ -4023,8 +4016,8 @@
   },
   {
     "Ad": "Kamran EVLİYAOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1926",
+    "Olum": "1972-10-17",
     "Gorevler": [
       {
         "Tanimi": "Basın Yayın ve Turizm Bakanı",
@@ -4035,9 +4028,9 @@
     ]
   },
   {
-    "Ad": "Bülent ECEVİT",
-    "Dogum": "",
-    "Olum": "",
+    "Ad": "Mustafa Bülent ECEVİT",
+    "Dogum": "1925",
+    "Olum": "2006-11-05",
     "Gorevler": [
       {
         "Tanimi": "Çalışma Bakanı",
@@ -4118,8 +4111,8 @@
   },
   {
     "Ad": "Mehmet İhsan GÜRSAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1903",
+    "Olum": "1976-06-19",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Bakanı",
@@ -4137,8 +4130,8 @@
   },
   {
     "Ad": "Mehmet Emin PAKSÜT",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1914",
+    "Olum": "1995-08-27",
     "Gorevler": [
       {
         "Tanimi": "Bayındırlık Bakanı",
@@ -4150,8 +4143,8 @@
   },
   {
     "Ad": "Mehmet Hilmi İNCESULU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1917",
+    "Olum": "1992-06-11",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -4163,8 +4156,8 @@
   },
   {
     "Ad": "Nihat SU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1917",
+    "Olum": "1970-11-28",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -4176,8 +4169,8 @@
   },
   {
     "Ad": "Ahmet TOPALOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1914",
+    "Olum": "1981-04-12",
     "Gorevler": [
       {
         "Tanimi": "İçişleri Bakanı",
@@ -4201,8 +4194,8 @@
   },
   {
     "Ad": "Mehmet İlhami SANCAR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1909",
+    "Olum": "1986-12-13",
     "Gorevler": [
       {
         "Tanimi": "Milli Savunma Bakanı",
@@ -4226,8 +4219,8 @@
   },
   {
     "Ad": "Necmi ÖKTEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1907",
+    "Olum": "1971-01-01",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -4239,8 +4232,8 @@
   },
   {
     "Ad": "Feridun Cemal ERKİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1899",
+    "Olum": "1980-06-21",
     "Gorevler": [
       {
         "Tanimi": "Dışişleri Bakanı",
@@ -4252,8 +4245,8 @@
   },
   {
     "Ad": "Hıfzı Oğuz BEKATA",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1911",
+    "Olum": "1995-09-01",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -4271,8 +4264,8 @@
   },
   {
     "Ad": "Hasan DİNÇER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1910",
+    "Olum": "2001-04-24",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
@@ -4302,8 +4295,8 @@
   },
   {
     "Ad": "Fahrettin Kerim GÖKAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1900",
+    "Olum": "1987-07-22",
     "Gorevler": [
       {
         "Tanimi": "İmar ve İskan Bakanı",
@@ -4321,8 +4314,8 @@
   },
   {
     "Ad": "Raif AYBAR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "2005-01-08",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -4347,8 +4340,8 @@
   },
   {
     "Ad": "Abdülhak Kemal YÖRÜK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1906",
+    "Olum": "1969-05-21",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -4360,8 +4353,8 @@
   },
   {
     "Ad": "Rıfat ÖÇTEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "1970-03-01",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -4373,7 +4366,7 @@
   },
   {
     "Ad": "Mehmet İZMEN",
-    "Dogum": "",
+    "Dogum": "1940",
     "Olum": "",
     "Gorevler": [
       {
@@ -4398,8 +4391,8 @@
   },
   {
     "Ad": "Orhan ÖZTRAK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1914",
+    "Olum": "1995-12-30",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve Tekel Bakanı",
@@ -4423,8 +4416,8 @@
   },
   {
     "Ad": "Yusuf AZİZOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1917",
+    "Olum": "1970-05-01",
     "Gorevler": [
       {
         "Tanimi": "Sağlık ve Sosyal Yardım Bakanı",
@@ -4436,8 +4429,8 @@
   },
   {
     "Ad": "Ferit MELEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1906",
+    "Olum": "1988-09-03",
     "Gorevler": [
       {
         "Tanimi": "Maliye Bakanı",
@@ -4467,8 +4460,8 @@
   },
   {
     "Ad": "İlyas SEÇKİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1918",
+    "Olum": "1996-12-17",
     "Gorevler": [
       {
         "Tanimi": "Bayındırlık Bakanı",
@@ -4486,8 +4479,8 @@
   },
   {
     "Ad": "Ali Şakir AĞANOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "2005-08-15",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -4499,8 +4492,8 @@
   },
   {
     "Ad": "İbrahim Hulusi ÖKTEM",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1904",
+    "Olum": "1982-11-16",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -4512,8 +4505,8 @@
   },
   {
     "Ad": "İhsan Şeref DURA",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1901",
+    "Olum": "1984-08-27",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -4525,8 +4518,8 @@
   },
   {
     "Ad": "Nurettin ARDIÇOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "1982-11-04",
     "Gorevler": [
       {
         "Tanimi": "Basın Yayın ve Turizm Bakanı",
@@ -4544,8 +4537,8 @@
   },
   {
     "Ad": "Ahmet OĞUZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1912",
+    "Olum": "1972-09-18",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Bakanı",
@@ -4557,7 +4550,7 @@
   },
   {
     "Ad": "Vefik PİRİNÇÇİOĞLU",
-    "Dogum": "",
+    "Dogum": "1909",
     "Olum": "",
     "Gorevler": [
       {
@@ -4570,8 +4563,8 @@
   },
   {
     "Ad": "Arif Hikmet ONAT",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1908",
+    "Olum": "1996-03-05",
     "Gorevler": [
       {
         "Tanimi": "Bayındırlık Bakanı",
@@ -4583,7 +4576,7 @@
   },
   {
     "Ad": "Malik YOLAÇ",
-    "Dogum": "",
+    "Dogum": "1922",
     "Olum": "",
     "Gorevler": [
       {
@@ -4596,8 +4589,8 @@
   },
   {
     "Ad": "İbrahim Saffet OMAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1909",
+    "Olum": "1998-12-06",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -4609,8 +4602,8 @@
   },
   {
     "Ad": "Arif Hüdai ORAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1925",
+    "Olum": "2005-02-13",
     "Gorevler": [
       {
         "Tanimi": "Enerji ve Tabii Kaynaklar Bakanı",
@@ -4622,8 +4615,8 @@
   },
   {
     "Ad": "Kemal DEMİR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1921",
+    "Olum": "2010-04-01",
     "Gorevler": [
       {
         "Tanimi": "Sağlık ve Sosyal Yardım Bakanı",
@@ -4653,8 +4646,8 @@
   },
   {
     "Ad": "Lebit YURDOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "1978-10-23",
     "Gorevler": [
       {
         "Tanimi": "Köyişleri Bakanı",
@@ -4666,8 +4659,8 @@
   },
   {
     "Ad": "Celalettin UZER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1925",
+    "Olum": "2009-04-16",
     "Gorevler": [
       {
         "Tanimi": "İmar ve İskan Bakanı",
@@ -4679,7 +4672,7 @@
   },
   {
     "Ad": "Ali İhsan GÖĞÜŞ",
-    "Dogum": "",
+    "Dogum": "1923",
     "Olum": "",
     "Gorevler": [
       {
@@ -4698,7 +4691,7 @@
   },
   {
     "Ad": "Mehmet Fenni İSLİMYELİ",
-    "Dogum": "",
+    "Dogum": "1921",
     "Olum": "",
     "Gorevler": [
       {
@@ -4711,8 +4704,8 @@
   },
   {
     "Ad": "Mehmet Turan ŞAHİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1926",
+    "Olum": "2001-07-26",
     "Gorevler": [
       {
         "Tanimi": "Tarım Bakanı",
@@ -4724,8 +4717,8 @@
   },
   {
     "Ad": "Muammer ERTEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1923",
+    "Olum": "1994-01-13",
     "Gorevler": [
       {
         "Tanimi": "Sanayi Bakanı",
@@ -4737,7 +4730,7 @@
   },
   {
     "Ad": "Mehmet YÜCELER",
-    "Dogum": "",
+    "Dogum": "1923",
     "Olum": "",
     "Gorevler": [
       {
@@ -4781,8 +4774,8 @@
   },
   {
     "Ad": "Abdurrahman Ferit ALPİSKENDER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1909",
+    "Olum": "1989-07-29",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -4794,8 +4787,8 @@
   },
   {
     "Ad": "Nüvit YETKİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1916",
+    "Olum": "2007-08-31",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -4807,8 +4800,8 @@
   },
   {
     "Ad": "Mahmut VURAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1926",
+    "Olum": "2002-10-04",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -4820,8 +4813,8 @@
   },
   {
     "Ad": "Cafer Sadık KUTLAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1912",
+    "Olum": "1988-07-26",
     "Gorevler": [
       {
         "Tanimi": "İmar ve İskan Bakanı",
@@ -4833,8 +4826,8 @@
   },
   {
     "Ad": "Sırrı ATALAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1919",
+    "Olum": "1985-09-09",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -4846,7 +4839,7 @@
   },
   {
     "Ad": "Süleyman DEMİREL",
-    "Dogum": "",
+    "Dogum": "1924",
     "Olum": "",
     "Gorevler": [
       {
@@ -4895,8 +4888,8 @@
   },
   {
     "Ad": "Ömer Zekai DORMAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1899",
+    "Olum": "1967-07-03",
     "Gorevler": [
       {
         "Tanimi": "Turizm ve Tanıtma Bakanı",
@@ -4908,8 +4901,8 @@
   },
   {
     "Ad": "Mehmet ALTINSOY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1924",
+    "Olum": "2007-02-17",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -4927,8 +4920,8 @@
   },
   {
     "Ad": "Seyfi ÖZTÜRK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1927",
+    "Olum": "2002-11-05",
     "Gorevler": [
       {
         "Tanimi": "Köyişleri Bakanı",
@@ -4970,8 +4963,8 @@
   },
   {
     "Ad": "Ali Recai İSKENDEROĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1926",
+    "Olum": "2000-04-30",
     "Gorevler": [
       {
         "Tanimi": "İmar ve İskan Bakanı",
@@ -4983,8 +4976,8 @@
   },
   {
     "Ad": "Şekip İNAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1908",
+    "Olum": "2002-01-04",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -4996,7 +4989,7 @@
   },
   {
     "Ad": "İrfan BARAN",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -5009,8 +5002,8 @@
   },
   {
     "Ad": "Mehmet TURGUT",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1929",
+    "Olum": "2009-07-01",
     "Gorevler": [
       {
         "Tanimi": "Enerji ve Tabii Kaynaklar Bakanı",
@@ -5034,7 +5027,7 @@
   },
   {
     "Ad": "Ali Naili ERDEM",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -5096,8 +5089,8 @@
   },
   {
     "Ad": "Mithat SAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1905",
+    "Olum": "1994-10-12",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -5146,8 +5139,8 @@
   },
   {
     "Ad": "Mehmet Faruk SÜKAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1921",
+    "Olum": "2005-01-03",
     "Gorevler": [
       {
         "Tanimi": "Sağlık ve Sosyal Yardım Bakanı",
@@ -5184,8 +5177,8 @@
   },
   {
     "Ad": "Orhan ALP",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1919",
+    "Olum": "2010-01-21",
     "Gorevler": [
       {
         "Tanimi": "Bayındırlık Bakanı",
@@ -5209,8 +5202,8 @@
   },
   {
     "Ad": "Nevzat Cihat BİLGEHAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1923",
+    "Olum": "1981-06-15",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -5240,8 +5233,8 @@
   },
   {
     "Ad": "Hasan Esat IŞIK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1916",
+    "Olum": "1989-07-02",
     "Gorevler": [
       {
         "Tanimi": "Dışişleri Bakanı",
@@ -5271,8 +5264,8 @@
   },
   {
     "Ad": "İsmail Hakkı AKDOĞAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1919",
+    "Olum": "1994-03-02",
     "Gorevler": [
       {
         "Tanimi": "İçişleri Bakanı",
@@ -5290,8 +5283,8 @@
   },
   {
     "Ad": "İhsan KÖKNEL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1904",
+    "Olum": "1990-02-02",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -5329,8 +5322,8 @@
   },
   {
     "Ad": "Mustafa KEPİR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "1999-08-26",
     "Gorevler": [
       {
         "Tanimi": "Köyişleri Bakanı",
@@ -5342,8 +5335,8 @@
   },
   {
     "Ad": "Mustafa Hazım DAĞLI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1906",
+    "Olum": "1990-05-07",
     "Gorevler": [
       {
         "Tanimi": "Milli Savunma Bakanı",
@@ -5355,8 +5348,8 @@
   },
   {
     "Ad": "Refet SEZGİN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1925",
+    "Olum": "1992-12-11",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -5380,8 +5373,8 @@
   },
   {
     "Ad": "Mehmet Kamil OCAK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "1969-05-21",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -5393,8 +5386,8 @@
   },
   {
     "Ad": "Ali Fuat ALİŞAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1930",
+    "Olum": "1996-10-09",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -5406,8 +5399,8 @@
   },
   {
     "Ad": "Sabit Osman AVCI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1921",
+    "Olum": "2009-02-08",
     "Gorevler": [
       {
         "Tanimi": "Köyişleri Bakanı",
@@ -5476,8 +5469,8 @@
   },
   {
     "Ad": "Orhan DENGİZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1918",
+    "Olum": "1985-01-11",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -5495,8 +5488,8 @@
   },
   {
     "Ad": "İbrahim Etem ERDİNÇ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "1998-05-15",
     "Gorevler": [
       {
         "Tanimi": "Bayındırlık Bakanı",
@@ -5508,8 +5501,8 @@
   },
   {
     "Ad": "Bahri DAĞDAŞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1919",
+    "Olum": "1984-06-28",
     "Gorevler": [
       {
         "Tanimi": "Tarım Bakanı",
@@ -5534,7 +5527,7 @@
   },
   {
     "Ad": "İbrahim TEKİN",
-    "Dogum": "",
+    "Dogum": "1923",
     "Olum": "",
     "Gorevler": [
       {
@@ -5560,8 +5553,8 @@
   },
   {
     "Ad": "Sadık Tekin MÜFTÜOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1927",
+    "Olum": "1975-06-14",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Bakanı",
@@ -5585,7 +5578,7 @@
   },
   {
     "Ad": "Ahmet TÜRKEL",
-    "Dogum": "",
+    "Dogum": "1922",
     "Olum": "",
     "Gorevler": [
       {
@@ -5603,8 +5596,8 @@
     ]
   },
   {
-    "Ad": "Mehmet Saadettin BİLGİÇ",
-    "Dogum": "",
+    "Ad": "Mehmet Sadettin BİLGİÇ",
+    "Dogum": "1921",
     "Olum": "",
     "Gorevler": [
       {
@@ -5623,8 +5616,8 @@
   },
   {
     "Ad": "Mehmet İlhami ERTEM",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1918",
+    "Olum": "1978-04-04",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -5648,8 +5641,8 @@
   },
   {
     "Ad": "Vedat Ali ÖZKAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1923",
+    "Olum": "1977-12-03",
     "Gorevler": [
       {
         "Tanimi": "Sağlık ve Sosyal Yardım Bakanı",
@@ -5661,7 +5654,7 @@
   },
   {
     "Ad": "Süleyman Hüsamettin ATABEYLİ",
-    "Dogum": "",
+    "Dogum": "1922",
     "Olum": "",
     "Gorevler": [
       {
@@ -5674,8 +5667,8 @@
   },
   {
     "Ad": "Hayrettin Turgut TOKER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1923",
+    "Olum": "2006-06-15",
     "Gorevler": [
       {
         "Tanimi": "Köyişleri Bakanı",
@@ -5705,7 +5698,7 @@
   },
   {
     "Ad": "Nahit MENTEŞE",
-    "Dogum": "",
+    "Dogum": "1932",
     "Olum": "",
     "Gorevler": [
       {
@@ -5766,8 +5759,8 @@
   },
   {
     "Ad": "Mehmet Selahattin KILIÇ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1921",
+    "Olum": "2008-08-28",
     "Gorevler": [
       {
         "Tanimi": "Köyişleri Bakanı",
@@ -5803,8 +5796,8 @@
   },
   {
     "Ad": "Hidayet AYDINER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1900",
+    "Olum": "1973-11-11",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -5816,7 +5809,7 @@
   },
   {
     "Ad": "Ali Mesut EREZ",
-    "Dogum": "",
+    "Dogum": "1922",
     "Olum": "",
     "Gorevler": [
       {
@@ -5847,8 +5840,8 @@
   },
   {
     "Ad": "Ahmet İhsan BİRİNCİOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1923",
+    "Olum": "2007-01-20",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve Tekel Bakanı",
@@ -5866,7 +5859,7 @@
   },
   {
     "Ad": "Necmettin CEVHERİ",
-    "Dogum": "",
+    "Dogum": "1930",
     "Olum": "",
     "Gorevler": [
       {
@@ -5897,8 +5890,8 @@
   },
   {
     "Ad": "Mehmet Hayrettin NAKİBOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1922",
+    "Olum": "2002-09-01",
     "Gorevler": [
       {
         "Tanimi": "İmar ve İskan Bakanı",
@@ -5923,7 +5916,7 @@
   },
   {
     "Ad": "Orhan OĞUZ",
-    "Dogum": "",
+    "Dogum": "1923",
     "Olum": "",
     "Gorevler": [
       {
@@ -5936,8 +5929,8 @@
   },
   {
     "Ad": "Yusuf Ziya ÖNDER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1914",
+    "Olum": "1984-04-22",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -5981,8 +5974,8 @@
   },
   {
     "Ad": "Ahmet DALLI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1907",
+    "Olum": "1971-05-22",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Bakanı",
@@ -5994,7 +5987,7 @@
   },
   {
     "Ad": "Hüseyin ÖZALP",
-    "Dogum": "",
+    "Dogum": "1923",
     "Olum": "",
     "Gorevler": [
       {
@@ -6013,7 +6006,7 @@
   },
   {
     "Ad": "İsmet SEZGİN",
-    "Dogum": "",
+    "Dogum": "1928",
     "Olum": "",
     "Gorevler": [
       {
@@ -6044,8 +6037,8 @@
   },
   {
     "Ad": "Mehmet Orhan TUĞRUL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1916",
+    "Olum": "2006-02-13",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -6057,8 +6050,8 @@
   },
   {
     "Ad": "İsmail Hakkı ARAR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1921",
+    "Olum": "1993-03-20",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -6082,8 +6075,8 @@
   },
   {
     "Ad": "Sadi KOÇAŞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1919",
+    "Olum": "1998-01-11",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
@@ -6095,8 +6088,8 @@
   },
   {
     "Ad": "Sezai ERGUN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1926",
+    "Olum": "2006-06-08",
     "Gorevler": [
       {
         "Tanimi": "Gençlik ve Spor Bakanı",
@@ -6108,8 +6101,8 @@
   },
   {
     "Ad": "Selahattin İNAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1887",
+    "Olum": "1969-10-11",
     "Gorevler": [
       {
         "Tanimi": "Orman Bakanı",
@@ -6121,7 +6114,7 @@
   },
   {
     "Ad": "Cevdet AYKAN",
-    "Dogum": "",
+    "Dogum": "1925",
     "Olum": "",
     "Gorevler": [
       {
@@ -6222,8 +6215,8 @@
   },
   {
     "Ad": "Doğan KİTAPLI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1927",
+    "Olum": "2009-02-06",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -6331,7 +6324,7 @@
   },
   {
     "Ad": "Haydar ÖZALP",
-    "Dogum": "",
+    "Dogum": "1924",
     "Olum": "",
     "Gorevler": [
       {
@@ -6402,7 +6395,7 @@
   },
   {
     "Ad": "Cahit KARAKAŞ",
-    "Dogum": "",
+    "Dogum": "1928",
     "Olum": "",
     "Gorevler": [
       {
@@ -6485,8 +6478,8 @@
   },
   {
     "Ad": "Ali Adnan KARAKÜÇÜK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1927",
+    "Olum": "2005-07-12",
     "Gorevler": [
       {
         "Tanimi": "Gençlik ve Spor Bakanı",
@@ -6530,7 +6523,7 @@
   },
   {
     "Ad": "Ali Rıza UZUNER",
-    "Dogum": "",
+    "Dogum": "1926",
     "Olum": "",
     "Gorevler": [
       {
@@ -6543,7 +6536,7 @@
   },
   {
     "Ad": "Rıfkı DANIŞMAN",
-    "Dogum": "",
+    "Dogum": "1924",
     "Olum": "",
     "Gorevler": [
       {
@@ -6670,7 +6663,7 @@
   },
   {
     "Ad": "Mehmet Nuri KODAMANOĞLU",
-    "Dogum": "",
+    "Dogum": "1923",
     "Olum": "",
     "Gorevler": [
       {
@@ -6841,8 +6834,8 @@
   },
   {
     "Ad": "Mehmet Nebil OKTAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1929",
+    "Olum": "1995-02-07",
     "Gorevler": [
       {
         "Tanimi": "İmar ve İskan Bakanı",
@@ -6854,7 +6847,7 @@
   },
   {
     "Ad": "Ahmet İhsan KIRIMLI",
-    "Dogum": "",
+    "Dogum": "1920",
     "Olum": "",
     "Gorevler": [
       {
@@ -6867,8 +6860,8 @@
   },
   {
     "Ad": "Nuri Kemal BAYAR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1927",
+    "Olum": "1989-11-28",
     "Gorevler": [
       {
         "Tanimi": "Sanayi ve Teknoloji Bakanı",
@@ -6899,7 +6892,7 @@
   },
   {
     "Ad": "Vefa TANIR",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -6936,7 +6929,7 @@
   },
   {
     "Ad": "Nurettin OK",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -6955,8 +6948,8 @@
   },
   {
     "Ad": "İsmail Hakkı TEKİNEL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1925",
+    "Olum": "1991-06-11",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -6968,8 +6961,8 @@
   },
   {
     "Ad": "Nizamettin ERKMEN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1919",
+    "Olum": "1990-10-24",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
@@ -6981,7 +6974,7 @@
   },
   {
     "Ad": "Fehim ADAK",
-    "Dogum": "",
+    "Dogum": "1931",
     "Olum": "",
     "Gorevler": [
       {
@@ -7012,8 +7005,8 @@
   },
   {
     "Ad": "Muslihittin Yılmaz METE",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1920",
+    "Olum": "2002-10-03",
     "Gorevler": [
       {
         "Tanimi": "Gençlik ve Spor Bakanı",
@@ -7025,8 +7018,8 @@
   },
   {
     "Ad": "Ahmet ŞENER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1921",
+    "Olum": "1991-06-14",
     "Gorevler": [
       {
         "Tanimi": "Orman Bakanı",
@@ -7056,8 +7049,8 @@
   },
   {
     "Ad": "Mustafa OK",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1925",
+    "Olum": "2009-01-05",
     "Gorevler": [
       {
         "Tanimi": "Köyişleri ve Kooperatifler Bakanı",
@@ -7069,7 +7062,7 @@
   },
   {
     "Ad": "Ali TOPUZ",
-    "Dogum": "",
+    "Dogum": "1932",
     "Olum": "",
     "Gorevler": [
       {
@@ -7094,7 +7087,7 @@
   },
   {
     "Ad": "Orhan BİRGİT",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -7107,7 +7100,7 @@
   },
   {
     "Ad": "Cahit KAYRA",
-    "Dogum": "",
+    "Dogum": "1917",
     "Olum": "",
     "Gorevler": [
       {
@@ -7120,7 +7113,7 @@
   },
   {
     "Ad": "Abdülkerim DOĞRU",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -7139,7 +7132,7 @@
   },
   {
     "Ad": "Önder SAV",
-    "Dogum": "",
+    "Dogum": "1937",
     "Olum": "",
     "Gorevler": [
       {
@@ -7152,8 +7145,8 @@
   },
   {
     "Ad": "Hasan Ferda GÜLEY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1916",
+    "Olum": "2008-11-17",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -7165,7 +7158,7 @@
   },
   {
     "Ad": "Korkut ÖZAL",
-    "Dogum": "",
+    "Dogum": "1929",
     "Olum": "",
     "Gorevler": [
       {
@@ -7190,8 +7183,8 @@
   },
   {
     "Ad": "Mahmut TÜRKMENOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1933",
+    "Olum": "1992-07-20",
     "Gorevler": [
       {
         "Tanimi": "Gümrük ve Tekel Bakanı",
@@ -7216,7 +7209,7 @@
   },
   {
     "Ad": "Erol ÇEVİKÇE",
-    "Dogum": "",
+    "Dogum": "1937",
     "Olum": "",
     "Gorevler": [
       {
@@ -7235,8 +7228,8 @@
   },
   {
     "Ad": "Mustafa ÜSTÜNDAĞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1933",
+    "Olum": "1983-06-30",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -7254,7 +7247,7 @@
   },
   {
     "Ad": "Deniz BAYKAL",
-    "Dogum": "",
+    "Dogum": "1938",
     "Olum": "",
     "Gorevler": [
       {
@@ -7279,8 +7272,8 @@
   },
   {
     "Ad": "Turan GÜNEŞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1921",
+    "Olum": "1982-04-09",
     "Gorevler": [
       {
         "Tanimi": "Dışişleri Bakanı",
@@ -7298,7 +7291,7 @@
   },
   {
     "Ad": "Oğuzhan ASİLTÜRK",
-    "Dogum": "",
+    "Dogum": "1935",
     "Olum": "",
     "Gorevler": [
       {
@@ -7323,7 +7316,7 @@
   },
   {
     "Ad": "Şevket KAZAN",
-    "Dogum": "",
+    "Dogum": "1933",
     "Olum": "",
     "Gorevler": [
       {
@@ -7348,7 +7341,7 @@
   },
   {
     "Ad": "Süleyman Arif EMRE",
-    "Dogum": "",
+    "Dogum": "1923",
     "Olum": "",
     "Gorevler": [
       {
@@ -7367,8 +7360,8 @@
   },
   {
     "Ad": "İsmail Hakkı BİRLER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1927",
+    "Olum": "2009-01-22",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -7380,8 +7373,8 @@
   },
   {
     "Ad": "Orhan Ferruh EYÜPOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1915",
+    "Olum": "1980-11-30",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -7405,7 +7398,7 @@
   },
   {
     "Ad": "Necmettin ERBAKAN",
-    "Dogum": "",
+    "Dogum": "1926",
     "Olum": "",
     "Gorevler": [
       {
@@ -7455,8 +7448,8 @@
   },
   {
     "Ad": "Hayriye Ayşe Nermin NEFTÇİ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1924",
+    "Olum": "2003-08-20",
     "Gorevler": [
       {
         "Tanimi": "Kültür Bakanı",
@@ -7667,8 +7660,8 @@
   },
   {
     "Ad": "Mehmet Salih YILDIZ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1925",
+    "Olum": "2003-06-04",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -7718,7 +7711,7 @@
   },
   {
     "Ad": "Ali Şevki EREK",
-    "Dogum": "",
+    "Dogum": "1935",
     "Olum": "",
     "Gorevler": [
       {
@@ -7781,7 +7774,7 @@
   },
   {
     "Ad": "Ahmet Tevfik PAKSU",
-    "Dogum": "",
+    "Dogum": "1926",
     "Olum": "",
     "Gorevler": [
       {
@@ -7794,8 +7787,8 @@
   },
   {
     "Ad": "Alparslan TÜRKEŞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1917",
+    "Olum": "1997-04-04",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
@@ -7813,7 +7806,7 @@
   },
   {
     "Ad": "Halil BAŞOL",
-    "Dogum": "",
+    "Dogum": "1925",
     "Olum": "",
     "Gorevler": [
       {
@@ -7832,8 +7825,8 @@
   },
   {
     "Ad": "Yılmaz ERGENEKON",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1929",
+    "Olum": "1983-07-08",
     "Gorevler": [
       {
         "Tanimi": "Maliye Bakanı",
@@ -7851,7 +7844,7 @@
   },
   {
     "Ad": "Hasan AKSAY",
-    "Dogum": "",
+    "Dogum": "1931",
     "Olum": "",
     "Gorevler": [
       {
@@ -7863,8 +7856,8 @@
     ]
   },
   {
-    "Ad": "Mustafa Kemal ERKO",
-    "Dogum": "",
+    "Ad": "Mustafa Kemal ERKOVAN",
+    "Dogum": "1929",
     "Olum": "",
     "Gorevler": [
       {
@@ -7877,7 +7870,7 @@
   },
   {
     "Ad": "İsmail MÜFTÜOĞLU",
-    "Dogum": "",
+    "Dogum": "1939",
     "Olum": "",
     "Gorevler": [
       {
@@ -7890,7 +7883,7 @@
   },
   {
     "Ad": "Mehmet Gıyasettin KARACA",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -7902,8 +7895,8 @@
     ]
   },
   {
-    "Ad": "İbraim AYSOY",
-    "Dogum": "",
+    "Ad": "İbrahim AYSOY",
+    "Dogum": "1931",
     "Olum": "",
     "Gorevler": [
       {
@@ -7929,7 +7922,7 @@
   },
   {
     "Ad": "Mehmet CAN",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -7948,7 +7941,7 @@
   },
   {
     "Ad": "Hayrettin UYSAL",
-    "Dogum": "",
+    "Dogum": "1928",
     "Olum": "",
     "Gorevler": [
       {
@@ -7961,7 +7954,7 @@
   },
   {
     "Ad": "Yüksel ÇAKMUR",
-    "Dogum": "",
+    "Dogum": "1942",
     "Olum": "",
     "Gorevler": [
       {
@@ -7980,7 +7973,7 @@
   },
   {
     "Ad": "Vecdi İLHAN",
-    "Dogum": "",
+    "Dogum": "1924",
     "Olum": "",
     "Gorevler": [
       {
@@ -8005,7 +7998,7 @@
   },
   {
     "Ad": "Erol TUNCER",
-    "Dogum": "",
+    "Dogum": "1938",
     "Olum": "",
     "Gorevler": [
       {
@@ -8018,7 +8011,7 @@
   },
   {
     "Ad": "Altan ÖYMEN",
-    "Dogum": "",
+    "Dogum": "1932",
     "Olum": "",
     "Gorevler": [
       {
@@ -8050,7 +8043,7 @@
   },
   {
     "Ad": "Tarhan ERDEM",
-    "Dogum": "",
+    "Dogum": "1933",
     "Olum": "",
     "Gorevler": [
       {
@@ -8063,8 +8056,8 @@
   },
   {
     "Ad": "Ahmet Bahir ERSOY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1920",
+    "Olum": "1989-05-22",
     "Gorevler": [
       {
         "Tanimi": "Çalışma Bakanı",
@@ -8095,8 +8088,8 @@
   },
   {
     "Ad": "Celal ERTUĞ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "2001-12-20",
     "Gorevler": [
       {
         "Tanimi": "Sağlık ve Sosyal Yardım Bakanı",
@@ -8108,7 +8101,7 @@
   },
   {
     "Ad": "Abdülkerim ZİLAN",
-    "Dogum": "",
+    "Dogum": "1943",
     "Olum": "",
     "Gorevler": [
       {
@@ -8134,8 +8127,8 @@
   },
   {
     "Ad": "Ahmet Gündüz ÖKÇÜN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1936",
+    "Olum": "1986-11-25",
     "Gorevler": [
       {
         "Tanimi": "Dışişleri Bakanı",
@@ -8172,7 +8165,7 @@
   },
   {
     "Ad": "Yusuf Kenan BULUTOĞLU",
-    "Dogum": "",
+    "Dogum": "1931",
     "Olum": "",
     "Gorevler": [
       {
@@ -8191,7 +8184,7 @@
   },
   {
     "Ad": "Selçuk ERVERDİ",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -8204,8 +8197,8 @@
   },
   {
     "Ad": "Mustafa Necdet UĞUR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1923",
+    "Olum": "2004-09-27",
     "Gorevler": [
       {
         "Tanimi": "İçişleri Bakanı",
@@ -8223,7 +8216,7 @@
   },
   {
     "Ad": "Agah Oktay GÜNER",
-    "Dogum": "",
+    "Dogum": "1937",
     "Olum": "",
     "Gorevler": [
       {
@@ -8242,8 +8235,8 @@
   },
   {
     "Ad": "Avni AKYOL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1931",
+    "Olum": "1999-09-30",
     "Gorevler": [
       {
         "Tanimi": "Kültür Bakanı",
@@ -8261,7 +8254,7 @@
   },
   {
     "Ad": "Önol ŞAKAR",
-    "Dogum": "",
+    "Dogum": "1935",
     "Olum": "",
     "Gorevler": [
       {
@@ -8274,8 +8267,8 @@
   },
   {
     "Ad": "Sabahattin SAVCI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1925",
+    "Olum": "2007-04-27",
     "Gorevler": [
       {
         "Tanimi": "Orman Bakanı",
@@ -8287,8 +8280,8 @@
   },
   {
     "Ad": "Turgut YÜCEL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1929",
+    "Olum": "2008-10-14",
     "Gorevler": [
       {
         "Tanimi": "Köyişleri ve Kooperatifler Bakanı",
@@ -8300,7 +8293,7 @@
   },
   {
     "Ad": "Mehmet Recai KUTAN",
-    "Dogum": "",
+    "Dogum": "1930",
     "Olum": "",
     "Gorevler": [
       {
@@ -8351,8 +8344,8 @@
   },
   {
     "Ad": "İsmail Fehmi CUMALIOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1912",
+    "Olum": "1996-07-25",
     "Gorevler": [
       {
         "Tanimi": "Çalışma Bakanı",
@@ -8377,7 +8370,7 @@
   },
   {
     "Ad": "Cengiz GÖKÇEK",
-    "Dogum": "",
+    "Dogum": "1934",
     "Olum": "",
     "Gorevler": [
       {
@@ -8390,7 +8383,7 @@
   },
   {
     "Ad": "Sadi SOMUNCUOĞLU",
-    "Dogum": "",
+    "Dogum": "1940",
     "Olum": "",
     "Gorevler": [
       {
@@ -8409,7 +8402,7 @@
   },
   {
     "Ad": "Ertuğrul Ekrem CEYHUN",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -8434,8 +8427,8 @@
   },
   {
     "Ad": "Enver AKOVA",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1935",
+    "Olum": "1995-08-31",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -8460,8 +8453,8 @@
   },
   {
     "Ad": "Ahmet Taner KIŞLALI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1939",
+    "Olum": "1999-10-21",
     "Gorevler": [
       {
         "Tanimi": "Kültür Bakanı",
@@ -8473,7 +8466,7 @@
   },
   {
     "Ad": "Hilmi İŞGÜZAR",
-    "Dogum": "",
+    "Dogum": "1929",
     "Olum": "",
     "Gorevler": [
       {
@@ -8486,7 +8479,7 @@
   },
   {
     "Ad": "Ahmet KARAASLAN",
-    "Dogum": "",
+    "Dogum": "1935",
     "Olum": "",
     "Gorevler": [
       {
@@ -8499,7 +8492,7 @@
   },
   {
     "Ad": "Alev COŞKUN",
-    "Dogum": "",
+    "Dogum": "1935",
     "Olum": "",
     "Gorevler": [
       {
@@ -8512,8 +8505,8 @@
   },
   {
     "Ad": "Güneş ÖNGÜT",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1933",
+    "Olum": "1992-10-25",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -8525,7 +8518,7 @@
   },
   {
     "Ad": "Tuncay MATARACI",
-    "Dogum": "",
+    "Dogum": "1935",
     "Olum": "",
     "Gorevler": [
       {
@@ -8538,7 +8531,7 @@
   },
   {
     "Ad": "Mete TAN",
-    "Dogum": "",
+    "Dogum": "1929",
     "Olum": "",
     "Gorevler": [
       {
@@ -8551,8 +8544,8 @@
   },
   {
     "Ad": "Teoman KÖPRÜLÜLER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1934",
+    "Olum": "2003-04-18",
     "Gorevler": [
       {
         "Tanimi": "Ticaret Bakanı",
@@ -8564,7 +8557,7 @@
   },
   {
     "Ad": "Şerafettin ELÇİ",
-    "Dogum": "",
+    "Dogum": "1938",
     "Olum": "",
     "Gorevler": [
       {
@@ -8577,7 +8570,7 @@
   },
   {
     "Ad": "Hikmet ÇETİN",
-    "Dogum": "",
+    "Dogum": "1937",
     "Olum": "",
     "Gorevler": [
       {
@@ -8608,8 +8601,8 @@
   },
   {
     "Ad": "İrfan ÖZAYDINLI",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1924",
+    "Olum": "1999-08-01",
     "Gorevler": [
       {
         "Tanimi": "İçişleri Bakanı",
@@ -8621,8 +8614,8 @@
   },
   {
     "Ad": "Ali Rıza SEPTİOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1913",
+    "Olum": "2001-09-04",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -8634,8 +8627,8 @@
   },
   {
     "Ad": "Mustafa KILIÇ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1925",
+    "Olum": "2004-12-22",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -8660,7 +8653,7 @@
   },
   {
     "Ad": "Hasan KORKUT",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -8673,7 +8666,7 @@
   },
   {
     "Ad": "Orhan EREN",
-    "Dogum": "",
+    "Dogum": "1922",
     "Olum": "",
     "Gorevler": [
       {
@@ -8692,8 +8685,8 @@
   },
   {
     "Ad": "Hüseyin Cavit ERDEMİR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1936",
+    "Olum": "2005-09-22",
     "Gorevler": [
       {
         "Tanimi": "Çalışma Bakanı",
@@ -8705,8 +8698,8 @@
   },
   {
     "Ad": "Tevfik KORALTAN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1930",
+    "Olum": "1995-10-12",
     "Gorevler": [
       {
         "Tanimi": "Kültür Bakanı",
@@ -8718,7 +8711,7 @@
   },
   {
     "Ad": "Sümer ORAL",
-    "Dogum": "",
+    "Dogum": "1938",
     "Olum": "",
     "Gorevler": [
       {
@@ -8743,7 +8736,7 @@
   },
   {
     "Ad": "Talat ASAL",
-    "Dogum": "",
+    "Dogum": "1922",
     "Olum": "",
     "Gorevler": [
       {
@@ -8756,7 +8749,7 @@
   },
   {
     "Ad": "Hasan EKİNCİ",
-    "Dogum": "",
+    "Dogum": "1939",
     "Olum": "",
     "Gorevler": [
       {
@@ -8788,8 +8781,8 @@
   },
   {
     "Ad": "Barlas KÜNTAY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1935",
+    "Olum": "1999-08-02",
     "Gorevler": [
       {
         "Tanimi": "Turizm ve Tanıtma Bakanı",
@@ -8801,7 +8794,7 @@
   },
   {
     "Ad": "Esat KIRATLIOĞLU",
-    "Dogum": "",
+    "Dogum": "1930",
     "Olum": "",
     "Gorevler": [
       {
@@ -8820,7 +8813,7 @@
   },
   {
     "Ad": "Cemal KÜLAHLI",
-    "Dogum": "",
+    "Dogum": "1930",
     "Olum": "",
     "Gorevler": [
       {
@@ -8833,7 +8826,7 @@
   },
   {
     "Ad": "Ahmet ÇAKMAK",
-    "Dogum": "",
+    "Dogum": "1931",
     "Olum": "",
     "Gorevler": [
       {
@@ -8846,8 +8839,8 @@
   },
   {
     "Ad": "Ali Münif İSLAMOĞLU",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1917",
+    "Olum": "1998-08-06",
     "Gorevler": [
       {
         "Tanimi": "Sağlık ve Sosyal Yardım Bakanı",
@@ -8865,8 +8858,8 @@
   },
   {
     "Ad": "Orhan Cemal FERSOY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1923",
+    "Olum": "1983-09-19",
     "Gorevler": [
       {
         "Tanimi": "Milli Eğitim Bakanı",
@@ -8878,8 +8871,8 @@
   },
   {
     "Ad": "Mustafa GÜLCÜGİL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1917",
+    "Olum": "2008-10-12",
     "Gorevler": [
       {
         "Tanimi": "İçişleri Bakanı",
@@ -8904,7 +8897,7 @@
   },
   {
     "Ad": "Köksal TOPTAN",
-    "Dogum": "",
+    "Dogum": "1943",
     "Olum": "",
     "Gorevler": [
       {
@@ -8929,7 +8922,7 @@
   },
   {
     "Ad": "Metin MUSAOĞLU",
-    "Dogum": "",
+    "Dogum": "1946",
     "Olum": "",
     "Gorevler": [
       {
@@ -8942,7 +8935,7 @@
   },
   {
     "Ad": "Ahmet KARAHAN",
-    "Dogum": "",
+    "Dogum": "1929",
     "Olum": "",
     "Gorevler": [
       {
@@ -8955,7 +8948,7 @@
   },
   {
     "Ad": "Muhammet KELLECİ",
-    "Dogum": "",
+    "Dogum": "1941",
     "Olum": "",
     "Gorevler": [
       {
@@ -8968,7 +8961,7 @@
   },
   {
     "Ad": "İsmet Kaya ERDEM",
-    "Dogum": "",
+    "Dogum": "1928",
     "Olum": "",
     "Gorevler": [
       {
@@ -9052,8 +9045,8 @@
   },
   {
     "Ad": "Turgut ÖZAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1927",
+    "Olum": "1993-04-17",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı ve Başbakan Yardımcısı",
@@ -9090,7 +9083,7 @@
   },
   {
     "Ad": "Saim Bülend ULUSU",
-    "Dogum": "",
+    "Dogum": "1923",
     "Olum": "",
     "Gorevler": [
       {
@@ -9220,7 +9213,7 @@
   },
   {
     "Ad": "Ali Hüsrev BOZER",
-    "Dogum": "",
+    "Dogum": "1925",
     "Olum": "",
     "Gorevler": [
       {
@@ -9316,8 +9309,8 @@
   },
   {
     "Ad": "Rifat BAYAZIT",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1912",
+    "Olum": "1986-07-30",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -9329,7 +9322,7 @@
   },
   {
     "Ad": "Cafer Tayyar SADIKLAR",
-    "Dogum": "",
+    "Dogum": "1932",
     "Olum": "",
     "Gorevler": [
       {
@@ -9355,7 +9348,7 @@
   },
   {
     "Ad": "Mehmet Mükerrem TAŞÇIOĞLU",
-    "Dogum": "",
+    "Dogum": "1926",
     "Olum": "",
     "Gorevler": [
       {
@@ -9374,7 +9367,7 @@
   },
   {
     "Ad": "Abdullah TENEKECİ",
-    "Dogum": "",
+    "Dogum": "1926",
     "Olum": "",
     "Gorevler": [
       {
@@ -9387,7 +9380,7 @@
   },
   {
     "Ad": "Cemal BÜYÜKBAŞ",
-    "Dogum": "",
+    "Dogum": "1928",
     "Olum": "",
     "Gorevler": [
       {
@@ -9406,7 +9399,7 @@
   },
   {
     "Ad": "Hüseyin Cahit ARAL",
-    "Dogum": "",
+    "Dogum": "1927",
     "Olum": "",
     "Gorevler": [
       {
@@ -9419,7 +9412,7 @@
   },
   {
     "Ad": "Mustafa KALEMLİ",
-    "Dogum": "",
+    "Dogum": "1943",
     "Olum": "",
     "Gorevler": [
       {
@@ -9456,7 +9449,7 @@
   },
   {
     "Ad": "Hüsnü DOĞAN",
-    "Dogum": "",
+    "Dogum": "1944",
     "Olum": "",
     "Gorevler": [
       {
@@ -9487,7 +9480,7 @@
   },
   {
     "Ad": "İsmail ÖZDAĞLAR",
-    "Dogum": "",
+    "Dogum": "1950",
     "Olum": "",
     "Gorevler": [
       {
@@ -9500,8 +9493,8 @@
   },
   {
     "Ad": "Veysel ATASOY",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1947",
+    "Olum": "2004-08-24",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -9525,7 +9518,7 @@
   },
   {
     "Ad": "Kazım OKSAY",
-    "Dogum": "",
+    "Dogum": "1933",
     "Olum": "",
     "Gorevler": [
       {
@@ -9538,8 +9531,8 @@
   },
   {
     "Ad": "Mehmet AYDIN",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1928",
+    "Olum": "1990-05-26",
     "Gorevler": [
       {
         "Tanimi": "Sağlık ve Sosyal Yardım Bakanı",
@@ -9557,7 +9550,7 @@
   },
   {
     "Ad": "İsmail Safa GİRAY",
-    "Dogum": "",
+    "Dogum": "1931",
     "Olum": "",
     "Gorevler": [
       {
@@ -9582,7 +9575,7 @@
   },
   {
     "Ad": "Mehmet Necat ELDEM",
-    "Dogum": "",
+    "Dogum": "1928",
     "Olum": "",
     "Gorevler": [
       {
@@ -9619,9 +9612,9 @@
     ]
   },
   {
-    "Ad": "Sudi Neş’e TÜREL",
-    "Dogum": "",
-    "Olum": "",
+    "Ad": "Sudi Neşe TÜREL",
+    "Dogum": "1929",
+    "Olum": "2009-06-30",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -9652,7 +9645,7 @@
   },
   {
     "Ad": "Vahit Melih HALEFOĞLU",
-    "Dogum": "",
+    "Dogum": "1919",
     "Olum": "",
     "Gorevler": [
       {
@@ -9665,7 +9658,7 @@
   },
   {
     "Ad": "Ahmet Kurtcebe ALPTEMOÇİN",
-    "Dogum": "",
+    "Dogum": "1940",
     "Olum": "",
     "Gorevler": [
       {
@@ -9690,7 +9683,7 @@
   },
   {
     "Ad": "Zeki YAVUZTÜRK",
-    "Dogum": "",
+    "Dogum": "1935",
     "Olum": "",
     "Gorevler": [
       {
@@ -9703,7 +9696,7 @@
   },
   {
     "Ad": "Ali TANRIYAR",
-    "Dogum": "",
+    "Dogum": "1914",
     "Olum": "",
     "Gorevler": [
       {
@@ -9716,7 +9709,7 @@
   },
   {
     "Ad": "Ahmet Mesut YILMAZ",
-    "Dogum": "",
+    "Dogum": "1947",
     "Olum": "",
     "Gorevler": [
       {
@@ -9765,7 +9758,7 @@
   },
   {
     "Ad": "Ahmet KARAEVLİ",
-    "Dogum": "",
+    "Dogum": "1949",
     "Olum": "",
     "Gorevler": [
       {
@@ -9778,7 +9771,7 @@
   },
   {
     "Ad": "Yıldırım AKBULUT",
-    "Dogum": "",
+    "Dogum": "1935",
     "Olum": "",
     "Gorevler": [
       {
@@ -9797,7 +9790,7 @@
   },
   {
     "Ad": "Mustafa Tınaz TİTİZ",
-    "Dogum": "",
+    "Dogum": "1942",
     "Olum": "",
     "Gorevler": [
       {
@@ -9822,7 +9815,7 @@
   },
   {
     "Ad": "Metin EMİROĞLU",
-    "Dogum": "",
+    "Dogum": "1943",
     "Olum": "",
     "Gorevler": [
       {
@@ -9841,7 +9834,7 @@
   },
   {
     "Ad": "Mahmut Oltan SUNGURLU",
-    "Dogum": "",
+    "Dogum": "1933",
     "Olum": "",
     "Gorevler": [
       {
@@ -9878,7 +9871,7 @@
   },
   {
     "Ad": "Hasan Celal GÜZEL",
-    "Dogum": "",
+    "Dogum": "1945",
     "Olum": "",
     "Gorevler": [
       {
@@ -9942,7 +9935,7 @@
   },
   {
     "Ad": "Fahrettin KURT",
-    "Dogum": "",
+    "Dogum": "1946",
     "Olum": "",
     "Gorevler": [
       {
@@ -9961,7 +9954,7 @@
   },
   {
     "Ad": "İmren AYKUT",
-    "Dogum": "",
+    "Dogum": "1940",
     "Olum": "",
     "Gorevler": [
       {
@@ -9992,7 +9985,7 @@
   },
   {
     "Ad": "Ekrem PAKDEMİRLİ",
-    "Dogum": "",
+    "Dogum": "1939",
     "Olum": "",
     "Gorevler": [
       {
@@ -10017,7 +10010,7 @@
   },
   {
     "Ad": "Cemil ÇİÇEK",
-    "Dogum": "",
+    "Dogum": "1946",
     "Olum": "",
     "Gorevler": [
       {
@@ -10048,7 +10041,7 @@
   },
   {
     "Ad": "Bülent AKARCALI",
-    "Dogum": "",
+    "Dogum": "1943",
     "Olum": "",
     "Gorevler": [
       {
@@ -10067,7 +10060,7 @@
   },
   {
     "Ad": "Mehmet YAZAR",
-    "Dogum": "",
+    "Dogum": "1936",
     "Olum": "",
     "Gorevler": [
       {
@@ -10086,7 +10079,7 @@
   },
   {
     "Ad": "Şükrü YÜRÜR",
-    "Dogum": "",
+    "Dogum": "1944",
     "Olum": "",
     "Gorevler": [
       {
@@ -10099,7 +10092,7 @@
   },
   {
     "Ad": "Mehmet Ercan VURALHAN",
-    "Dogum": "",
+    "Dogum": "1943",
     "Olum": "",
     "Gorevler": [
       {
@@ -10112,8 +10105,8 @@
   },
   {
     "Ad": "Yusuf Bozkurt ÖZAL",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1940",
+    "Olum": "2001-01-09",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -10125,8 +10118,8 @@
   },
   {
     "Ad": "Adnan KAHVECİ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1949",
+    "Olum": "1993-02-05",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -10144,7 +10137,7 @@
   },
   {
     "Ad": "Nihat KİTAPÇI",
-    "Dogum": "",
+    "Dogum": "1928",
     "Olum": "",
     "Gorevler": [
       {
@@ -10169,8 +10162,8 @@
   },
   {
     "Ad": "Mehmet TOPAÇ",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1939",
+    "Olum": "1994-09-29",
     "Gorevler": [
       {
         "Tanimi": "Adalet Bakanı",
@@ -10182,7 +10175,7 @@
   },
   {
     "Ad": "İlhan AŞKIN",
-    "Dogum": "",
+    "Dogum": "1940",
     "Olum": "",
     "Gorevler": [
       {
@@ -10195,7 +10188,7 @@
   },
   {
     "Ad": "Saffet SERT",
-    "Dogum": "",
+    "Dogum": "1948",
     "Olum": "",
     "Gorevler": [
       {
@@ -10208,7 +10201,7 @@
   },
   {
     "Ad": "İsmet ÖZARSLAN",
-    "Dogum": "",
+    "Dogum": "1945",
     "Olum": "",
     "Gorevler": [
       {
@@ -10221,7 +10214,7 @@
   },
   {
     "Ad": "Abdülkadir AKSU",
-    "Dogum": "",
+    "Dogum": "1944",
     "Olum": "",
     "Gorevler": [
       {
@@ -10246,7 +10239,7 @@
   },
   {
     "Ad": "Cengiz ALTINKAYA",
-    "Dogum": "",
+    "Dogum": "1949",
     "Olum": "",
     "Gorevler": [
       {
@@ -10259,7 +10252,7 @@
   },
   {
     "Ad": "Işın ÇELEBİ",
-    "Dogum": "",
+    "Dogum": "1950",
     "Olum": "",
     "Gorevler": [
       {
@@ -10278,7 +10271,7 @@
   },
   {
     "Ad": "Halil ŞIVGIN",
-    "Dogum": "",
+    "Dogum": "1950",
     "Olum": "",
     "Gorevler": [
       {
@@ -10291,7 +10284,7 @@
   },
   {
     "Ad": "Güneş TANER",
-    "Dogum": "",
+    "Dogum": "1949",
     "Olum": "",
     "Gorevler": [
       {
@@ -10310,8 +10303,8 @@
   },
   {
     "Ad": "Cengiz TUNCER",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1942",
+    "Olum": "1992-12-07",
     "Gorevler": [
       {
         "Tanimi": "Ulaştırma Bakanı",
@@ -10329,7 +10322,7 @@
   },
   {
     "Ad": "Lutfullah KAYALAR",
-    "Dogum": "",
+    "Dogum": "1952",
     "Olum": "",
     "Gorevler": [
       {
@@ -10348,7 +10341,7 @@
   },
   {
     "Ad": "Recep Ercüment KONUKMAN",
-    "Dogum": "",
+    "Dogum": "1933",
     "Olum": "",
     "Gorevler": [
       {
@@ -10361,7 +10354,7 @@
   },
   {
     "Ad": "İlhan AKÜZÜM",
-    "Dogum": "",
+    "Dogum": "1947",
     "Olum": "",
     "Gorevler": [
       {
@@ -10380,7 +10373,7 @@
   },
   {
     "Ad": "Namık Kemal ZEYBEK",
-    "Dogum": "",
+    "Dogum": "1944",
     "Olum": "",
     "Gorevler": [
       {
@@ -10399,7 +10392,7 @@
   },
   {
     "Ad": "İbrahim ÖZDEMİR",
-    "Dogum": "",
+    "Dogum": "1949",
     "Olum": "",
     "Gorevler": [
       {
@@ -10418,7 +10411,7 @@
   },
   {
     "Ad": "Hüsamettin ÖRÜÇ",
-    "Dogum": "",
+    "Dogum": "1931",
     "Olum": "",
     "Gorevler": [
       {
@@ -10437,7 +10430,7 @@
   },
   {
     "Ad": "Kemal AKKAYA",
-    "Dogum": "",
+    "Dogum": "1930",
     "Olum": "",
     "Gorevler": [
       {
@@ -10450,8 +10443,8 @@
   },
   {
     "Ad": "Mustafa Rüştü TAŞAR",
-    "Dogum": "",
-    "Olum": "",
+    "Dogum": "1951",
+    "Olum": "2007-01-03",
     "Gorevler": [
       {
         "Tanimi": "Devlet Bakanı",
@@ -10481,7 +10474,7 @@
   },
   {
     "Ad": "Mehmet KEÇECİLER",
-    "Dogum": "",
+    "Dogum": "1944",
     "Olum": "",
     "Gorevler": [
       {
@@ -10506,7 +10499,7 @@
   },
   {
     "Ad": "Togay GEMALMAZ",
-    "Dogum": "",
+    "Dogum": "1937",
     "Olum": "",
     "Gorevler": [
       {
@@ -10519,7 +10512,7 @@
   },
   {
     "Ad": "Gökhan MARAŞ",
-    "Dogum": "",
+    "Dogum": "1951",
     "Olum": "",
     "Gorevler": [
       {
@@ -10532,7 +10525,7 @@
   },
   {
     "Ad": "Muzaffer ARICI",
-    "Dogum": "",
+    "Dogum": "1943",
     "Olum": "",
     "Gorevler": [
       {
@@ -10545,7 +10538,7 @@
   },
   {
     "Ad": "Rüştü Kazım YÜCELEN",
-    "Dogum": "",
+    "Dogum": "1948",
     "Olum": "",
     "Gorevler": [
       {
@@ -10576,7 +10569,7 @@
   },
   {
     "Ad": "İlker TUNCAY",
-    "Dogum": "",
+    "Dogum": "1945",
     "Olum": "",
     "Gorevler": [
       {

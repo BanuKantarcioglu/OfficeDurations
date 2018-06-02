@@ -80,8 +80,9 @@ Görsel Özellikler
     
   
 </div>
-     <div id="demo"></div>
-    <hr id="mybar">
+
+<div id="demo"></div>
+<hr id="mybar">
 <div id="notes">
     <strong>Notlar:</strong>
     <ul >
@@ -302,14 +303,10 @@ Görsel Özellikler
     + fill out all kisiler...
     
     */
-    var veri=[];
-    var kisi_list = [];
-    var gorev_list = [];
-    //var t = "";
-    loadData();
-    
-    /**********************************/
-    
+var veri=[];
+var kisi_list = [];
+var gorev_list = [];
+
     // const to for filters
 const CUMHURBAŞKANI = "Cumhurbaşkanı";
 const BASBAKAN = "Başbakan";
@@ -318,34 +315,87 @@ const BASBAKAN = "Başbakan";
 var windowsize = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 var refelement = document.getElementById("mybar");
 var topPos = refelement.getBoundingClientRect().top ;
-updateHeight();
 
+     /**********************************/
 
+function calculateTotalDays(days){
+    // Gorev : ({"Ad": kisi.Ad,"BaslangicTarihi":new Date(gorev.Baslangic),"BitisTarihi":new Date(gorev.Bitis)});
+    // Kisi  : ({"Ad": gorev.Tanimi,"BaslangicTarihi":gorev.BaslangicTarihi,"BitisTarihi":gorev.BitisTarihi,"Kodu": gorev.Kodu, "Visible":true});
+    var td = 0;
+    var newdays =[];
+    days.sort(function(a,b){return a.BaslangicTarihi-b.BaslangicTarihi;});
+    newdays = days.reduce(function(nd,item){
+        if(nd[nd.length-1].ed> item.BitisTarihi){
+            return nd;
+        }
+        if(nd[nd.length-1].ed.getTime()== item.BaslangicTarihi.getTime()  || 
+          item.BaslangicTarihi <nd[nd.length-1].ed   &&  nd[nd.length-1].ed < item.BitisTarihi){
+             nd[nd.length-1].ed=item.BitisTarihi;
+             return nd;
+        }
+        if(nd[nd.length-1].ed< item.BaslangicTarihi){
+            nd.push({"st":item.BaslangicTarihi,"ed":item.BitisTarihi});
+            return nd;
+        }
+                
+        return nd;
+                
+     },[{"st":days[0].BaslangicTarihi,"ed":days[0].BitisTarihi}]);
+    
+    td = newdays.reduce(function(td,i){
+        td +=  Math.round((i.ed-i.st)/86400000 );
+        return td;
+    },0);
+    return td;
+         
+/*
+         function sortit(src){
+       //document.getElementById("demo").innerHTML =
+        var res=[];
+        if(Array.isArray(src)){
+            res.push(src[0]);
+            for (i = 1; i < src.length; i++) {
+                dt1 = res[res.length-1];
+                dt2 = src[i];
+                if(dt1.d2<dt2.d1){
+                    res.push(src[i]);
+                }
+                else{
+                    if(dt1.d2<dt2.d2){
+                        res.pop(); res.push({d1:dt1.d1,d2:dt2.d2});
+                    }
+                }
+            }
+        }
+        console.log(res);
+        return res;
+    }
+*/
+}
+    
 function updateHeight(){
+    //console.log("start update height");
+    topPos = refelement.getBoundingClientRect().top ;
+    windowsize = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
     var nh = ((topPos<=0) ? 0 : Math.min(windowsize,topPos)-50)
-     //console.log("updating height => toppos " + topPos + "  windowsize : "+ windowsize + " => new height : " + nh);
+    //console.log("updating height => toppos " + topPos + "  windowsize : "+ windowsize + " => new height : " + nh);
     var bars = document.getElementsByClassName("hyear");   
     for (i=0;i<bars.length;i++)
         bars[i].style.height =(nh)+"px";
-}
     
-window.addEventListener( "resize", function(event) {
-    windowsize = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+    //console.log("updated height");
+}
+window.addEventListener("resize", function(event) {
+    //windowsize = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
     updateHeight();
     //console.log("windowsize =>"+ windowsize);
 });
-    
-window.addEventListener('scroll', function(e) {
-    topPos = refelement.getBoundingClientRect().top ;
+window.addEventListener("scroll", function(e) {
+    //topPos = refelement.getBoundingClientRect().top ;
     //console.log("scrolling =>"+ topPos + " windowsize => " + windowsize);
     updateHeight();
 
 });
-    
-    // vertical guideline related items _end
-    /**********************************/
-    
-    // gorev Tanimi ya da gorev Kodu
 function transformToGorev(){
      gorev_list = veri.reduce(function(groups,kisi){
         for (var gorev of kisi.Gorevler){
@@ -356,26 +406,40 @@ function transformToGorev(){
             }
             gorev.BaslangicTarihi = new Date(gorev.Baslangic);
             gorev.BitisTarihi = new Date(gorev.Bitis);
-            mygroup.ToplamGun+= Math.round((gorev.BitisTarihi-gorev.BaslangicTarihi)/86400000 );
-            
+            //mygroup.ToplamGun+= Math.round((gorev.BitisTarihi-gorev.BaslangicTarihi)/86400000 );
+           
             mygroup["Items"].push({"Ad": kisi.Ad,"BaslangicTarihi":new Date(gorev.Baslangic),"BitisTarihi":new Date(gorev.Bitis)});
         }
         return groups;
         
-    },[{"SubHeaderText":veri[0].Gorevler[0].Tanimi,"Visible":true,"Items":[]}]);
+    },[{"SubHeaderText":veri[0].Gorevler[0].Tanimi,"Visible":true,"ToplamGun":0,"Items":[]}]);
+       //var fark = 0;
     
+    for(i=0;i< gorev_list.length;i++){
+        gorev_list[i].ToplamGun = calculateTotalDays(gorev_list[i].Items);
+        /*
+        if(gorev_list[i].SubHeaderText.startsWith("Aile ve Sosyal"))
+            debugger;
+        var td = calculateTotalDays(gorev_list[i].Items)
+        if (Math.abs( td - gorev_list[i].ToplamGun)>5)
+            fark ++;
+        gorev_list[i].ToplamGun = td;
+        */
+        
+    }
+        //alert(fark);
 }
-    
 function transformToKisi(){
     if (veri=="") return;
     kisi_list = veri.map(function(kisi){
      
-        var newobj = {"SubHeaderText": kisi.Ad + "("+kisi.Dogum + "-" + kisi.Olum + ") ","ToplamGun":0,"Items":[] };
+        var newobj = {"SubHeaderText": kisi.Ad + "("+kisi.Dogum + "-" + 
+                      (kisi.Olum!=""?(new Date(kisi.Olum)).getFullYear():"") + ") ","ToplamGun":0,"Items":[] };
 
         for (var gorev of kisi.Gorevler){
             gorev.BaslangicTarihi = new Date(gorev.Baslangic);
             gorev.BitisTarihi = new Date(gorev.Bitis);
-            newobj.ToplamGun+= Math.round((gorev.BitisTarihi-gorev.BaslangicTarihi)/86400000 );
+           // newobj.ToplamGun+= Math.round((gorev.BitisTarihi-gorev.BaslangicTarihi)/86400000 );
             newobj.Items.push({"Ad": gorev.Tanimi,"BaslangicTarihi":gorev.BaslangicTarihi,"BitisTarihi":gorev.BitisTarihi,"Kodu": gorev.Kodu, "Visible":true});
         }
         //kisi.Gorevler.sort(sortGorevler);
@@ -383,11 +447,23 @@ function transformToKisi(){
         newobj.Items.sort(function(a,b){return a.BaslangicTarihi-b.BaslangicTarihi;});
         
         return newobj;
-    })
-    
-}
+    });
+//    var fark = 0;
+    for(i=0;i< kisi_list.length;i++){
+        kisi_list[i].ToplamGun =calculateTotalDays(kisi_list[i].Items);
+        /*
+        if(kisi_list[i].SubHeaderText.startsWith("Recep Tayyip"))
+            debugger;
+        var td = calculateTotalDays(kisi_list[i].Items)
+        if (Math.abs( td - kisi_list[i].ToplamGun)>5)
+            fark ++;
+        kisi_list[i].ToplamGun = td;
+        */
+        
+    }
 
- 
+        
+}
 function paintTimeline(elem,bas,bit,txt){
     var beginning = new Date("1920-01-01");
     var eGorevLine =document.createElement("span");
@@ -409,12 +485,11 @@ function myclick(e){ // kisi başlığına tıklama için
     this.children[3].hidden= !(this.children[3].hidden);
     //this.lastElementChild.hidden=!(this.lastElementChild.hidden);
 }
- 
 function sortGorevler(a,b){
         return a.BaslangicTarihi - b.BaslangicTarihi;
 }
-   
 function loadData() { // Verileri yüklemek için AJAX request
+   // console.log("loading data");
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -423,14 +498,17 @@ function loadData() { // Verileri yüklemek için AJAX request
   };
   xhttp.open("GET", "data/data.json", true);
   xhttp.send();
+    // console.log("loaded data");
 }
-
 function initData(xml) { // Verilerin düştüğü yer
+   // console.log("initializing data");
     veri =JSON.parse( xml.responseText);
     reload();
+   // console.log("initialized data");
+    updateHeight();
 }
-
 function reload(){
+    // console.log("reloading data");
     if(veri=="")return;
     
     var cont = document.getElementById("demo").textContent;
@@ -499,9 +577,11 @@ function reload(){
         applyFilter(gorev_list);
     loadList(gorev_list,detay);
     }
-  updateHeight();         
-} 
+  updateHeight();        
+    // console.log("reloaded data");
+    
 
+} 
 function checkFilter(v){
     var c = document.getElementById("c").checked; // cumhurbaşkanı
     var b = document.getElementById("b").checked; // başbakan
@@ -511,7 +591,6 @@ function checkFilter(v){
         return false;
     return true;
 }
-
 function applyFilter(list){
     for (i=0;i< list.length;i++){
         var baslik = list[i];
@@ -529,8 +608,7 @@ function applyFilter(list){
         
     }
 }
-
-function loadList(list,filters,detay){
+function loadList(list,detay){
  if (list =="") return; 
    
             
@@ -570,7 +648,7 @@ function loadList(list,filters,detay){
               var eItemSpan = document.createElement("span");
               eItemSpan.classList.add("item");
 
-              toplamGun+= Math.round((item.BitisTarihi-item.BaslangicTarihi)/86400000 );
+              //toplamGun+= Math.round((item.BitisTarihi-item.BaslangicTarihi)/86400000 );
 
 
               eItemSpan.textContent =  item.Ad + " (" +
@@ -587,7 +665,7 @@ function loadList(list,filters,detay){
       
       eSubHeader.appendChild(eSubHeaderTimeLine);
       var eToplamGun = document.createElement("span");
-      eToplamGun.textContent=toplamGun.toLocaleString() + "/" + subHeader.ToplamGun.toLocaleString();
+      eToplamGun.textContent= subHeader.ToplamGun.toLocaleString();
       eToplamGun.style.float="right";
       eSubHeader.appendChild(eToplamGun);
     
@@ -604,177 +682,8 @@ function loadList(list,filters,detay){
         document.getElementById("demo").removeChild(document.getElementById("demo").children[0]);
     document.getElementById("demo").appendChild(eSubHeaderList); 
  }
-    
-/*
-
-function sortToDate(){ // Tüm listeyi ilk görev başlangıç tarihine göre sıralama 
-    kisi_list.sort(function(a,b){return a.ilktarih-b.ilktarih;});  
-}
-   
-    
-function sortToName(){ // Tüm listeyi isme göre alfabetik sıralama
-    if (kisi_list=="") return;
-    kisi_list.sort(function(a,b){
-        var x = a.Ad.toLocaleLowerCase();
-        var y = b.Ad.toLocaleLowerCase();
-        if (x<y) {return -1;}
-        if (x>y){return 1;}
-        return 0;
-        }); 
-}
-function loadGorevList(){
-    if(gorev_list==""){
-        if(kisi_list=="")   
-            return;
-        else
-            transformToGorev();
-    }
-  var i;
-  var txt = "";
-  var eSubHeaderList = document.createElement("ul"); 
-  var c = document.getElementById("c").checked;
-  var b = document.getElementById("b").checked;
-  var a = document.getElementById("a").checked;
-  var d = document.getElementById("d").checked;
- 
-   
-  for (i=0;i< gorev_list.length;i++){
-      var subHeader =gorev_list[i];
-      //var kisiArticle = document.createElement("ul");
-      var eSubHeader = document.createElement("li");
-      eSubHeader.classList.add("subHeader");
-      eSubHeader.addEventListener("click",myclick);
-      
-      var eSubHeaderText = document.createElement("span");
-      //"&#x25BC;"  aşağı üçgen  //&#x25B6; sağa bakan  //&#x25C0; sola bakan
-      eSubHeaderText.textContent=  subHeader.Gorev; // For testing purposes + kisi.ilktarih.toLocaleDateString();     //****
-      eSubHeaderText.classList.add("kisiadi");
-      eSubHeader.appendChild(eSubHeaderText);
-      
-      var eSubHeaderTimeLine = document.createElement("span");
-      eSubHeaderTimeLine.hidden=true;
-      
-      var eItemList = document.createElement("ul");
-      eItemList.className="itemlist";
-      
-      var toplamGun = 0;
-
-      for(var k = 0; k<subHeader.Kisiler.length;k++){
-          var item = subHeader.Kisiler[k];
-          //if((item.Kodu=="C" && c) || (item.Kodu=="BB" &&b) || (item.Kodu == "B" && d)){
-              var eItem=document.createElement("li");
-              var eItemSpan = document.createElement("span");
-              eItemSpan.classList.add("item");
-
-              toplamGun+= Math.round((item.BaslangicTarihi-item.BitisTarihi)/86400000 );
-
-
-              eItemSpan.textContent =  item.Ad + " (" +
-                        item.BaslangicTarihi.toLocaleDateString() + "-" + item.BitisTarihi.toLocaleDateString() + ")";
-              eItem.appendChild(eItemSpan);
-
-
-              paintTimelineNew(eItem,item.BaslangicTarihi,item.BitisTarihi );
-              paintTimelineNew(eSubHeaderTimeLine,item.BaslangicTarihi,item.BitisTarihi);
-
-              eItemList.appendChild(eItem);
-          //}
-      }
-      
-      eSubHeader.appendChild(eSubHeaderTimeLine);
-      var eToplamGun = document.createElement("span");
-      eToplamGun.textContent=toplamGun.toLocaleString();
-      eToplamGun.style.float="right";
-      eSubHeader.appendChild(eToplamGun);
-    
-    
-    eSubHeader.appendChild(eItemList);
-      
-    if(eItemList.childElementCount>0){
-        eSubHeaderList.appendChild(eSubHeader);
-      }
-      if (a)
-        eSubHeader.click();
-  }
-    if (document.getElementById("demo").childElementCount>0)
-        document.getElementById("demo").removeChild(document.getElementById("demo").children[0]);
-    document.getElementById("demo").appendChild(eSubHeaderList); 
-}
-
-function loadKisiList(){ //verileri ekrana çizme işlemi
-  if (kisi_list=="") return;
-  var i;
-  var txt = "";
-  var eSubHeaderList = document.createElement("ul"); 
-  var c = document.getElementById("c").checked;
-  var b = document.getElementById("b").checked;
-  var a = document.getElementById("a").checked;
-  var d = document.getElementById("d").checked;
- 
-   
-  for (i=0;i< kisi_list.length;i++){
-      var kisi =kisi_list[i];
-      //var kisiArticle = document.createElement("ul");
-      var eSubHeader = document.createElement("li");
-      eSubHeader.classList.add("subHeader");
-      eSubHeader.addEventListener("click",myclick);
-      
-      var eSubHeaderText = document.createElement("span");
-      //"&#x25BC;"  aşağı üçgen  //&#x25B6; sağa bakan  //&#x25C0; sola bakan
-      eSubHeaderText.textContent=  kisi.Ad + "("+kisi.Dogum + "-" + kisi.Olum + ") "; // For testing purposes + kisi.ilktarih.toLocaleDateString(); 
-      eSubHeaderText.classList.add("kisiadi");
-      eSubHeader.appendChild(eSubHeaderText);
-      
-      var eSubHeaderTimeLine = document.createElement("span");
-      eSubHeaderTimeLine.hidden=true;
-      
-      var eItemList = document.createElement("ul");
-      eItemList.className="itemlist";
-      
-      var toplamGun = 0;
-
-      for(var k = 0; k<kisi.Gorevler.length;k++){
-          var gorev = kisi.Gorevler[k];
-          if((gorev.Kodu=="C" && c) || (gorev.Kodu=="BB" &&b) || (gorev.Kodu == "B" && d)){
-              var eItem=document.createElement("li");
-              var eItemSpan = document.createElement("span");
-              eItemSpan.classList.add("item");
-
-              toplamGun+= Math.round((gorev.BaslangicTarihi-gorev.BitisTarihi)/86400000 );
-
-
-              eItemSpan.textContent =  gorev.Tanimi + " (" +
-                        gorev.BaslangicTarihi.toLocaleDateString() + "-" + gorev.BitisTarihi.toLocaleDateString() + ")";
-              eItem.appendChild(eItemSpan);
-
-
-              paintTimelineNew(eItem,gorev.BaslangicTarihi,gorev.BitisTarihi );
-              paintTimelineNew(eSubHeaderTimeLine,gorev.BaslangicTarihi,gorev.BitisTarihi);
-
-              eItemList.appendChild(eItem);
-          }
-      }
-      
-      eSubHeader.appendChild(eSubHeaderTimeLine);
-      var eToplamGun = document.createElement("span");
-      eToplamGun.textContent=toplamGun.toLocaleString();
-      eToplamGun.style.float="right";
-      eSubHeader.appendChild(eToplamGun);
-    
-    
-    eSubHeader.appendChild(eItemList);
-      
-    if(eItemList.childElementCount>0){
-        eSubHeaderList.appendChild(eSubHeader);
-      }
-      if (a)
-        eSubHeader.click();
-  }
-    if (document.getElementById("demo").childElementCount>0)
-        document.getElementById("demo").removeChild(document.getElementById("demo").children[0]);
-    document.getElementById("demo").appendChild(eSubHeaderList); 
-}
-   */ 
-   
+    loadData();
+    updateHeight(); 
+  
     </script>
 </html>
